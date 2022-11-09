@@ -9,11 +9,12 @@ imageNames = []
 targets = []
 # df['ImageName'] = namesTrain
 # df['Target'] = classesTrain
-personNum = 1
+personNum = 2
 for persona in os.listdir(dir_path):
 	print(persona)
 	if persona == 'persona1':
 		continue
+
 	videoPath = dir_path+persona+'\\'
 	for videoName in os.listdir(videoPath):
 		letter = videoName.split('_')[0]
@@ -50,9 +51,9 @@ for persona in os.listdir(dir_path):
 	personNum +=1
 
 
-df['ImageName'] = imageNames
-df['Target'] = targets
-df.to_csv('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDataset.csv', index=False)
+# df['ImageName'] = imageNames
+# df['Target'] = targets
+# df.to_csv('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDataset.csv', index=False)
 
 # videoNames = ['avisame', 'bien', 'buenosDias', 'comoEstas', 'duda', 'examen', 'hola', 'mal', 'mandar', 'whatsapp']
 # maxFrames = 0
