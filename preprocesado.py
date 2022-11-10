@@ -1,7 +1,6 @@
 import cv2
 import os
 import pandas as pd
-persona = 4
 dir_path = 'D:\\CIC\\LSM\\DactiolologiaLSM\\videosPersonas\\limpios\\'
 image_path = 'D:\\CIC\\LSM\\DactiolologiaLSM\\images\\'
 df = pd.DataFrame()
@@ -9,51 +8,56 @@ imageNames = []
 targets = []
 # df['ImageName'] = namesTrain
 # df['Target'] = classesTrain
-personNum = 2
+personNum = 3
 for persona in os.listdir(dir_path):
 	print(persona)
-	if persona == 'persona1':
-		continue
+	if persona == 'persona3':
+		videoPath = dir_path+persona+'\\'
+		for videoName in os.listdir(videoPath):
+			letter = videoName.split('_')[0]
+			hand = (videoName.split('_')[1]).split('.')[0]
+			# if letter != 'a':
+			# 	continue
+			print(videoName, letter, hand)
+			capture = cv2.VideoCapture(videoPath+videoName)
+			frameNr = 0
+			while (True):
+				success, frame = capture.read()
+				if success:
+					imageName = letter + str(frameNr)+'_'+hand+'_'+str(personNum)+'.jpg'
+					imageNames.append(imageName)
+					imageName = image_path + imageName
 
-	videoPath = dir_path+persona+'\\'
-	for videoName in os.listdir(videoPath):
-		letter = videoName.split('_')[0]
-		hand = (videoName.split('_')[1]).split('.')[0]
-		# if letter != 'a':
-		# 	continue
-		print(videoName, letter, hand)
-		capture = cv2.VideoCapture(videoPath+videoName)
-		frameNr = 0
-		while (True):
-			success, frame = capture.read()
-			if success:
-				imageName = letter + str(frameNr)+'_'+hand+'_'+str(personNum)+'.jpg'
-				imageNames.append(imageName)
-				imageName = image_path + imageName
+					targets.append(letter)
+					if hand == "izq":
+						if persona != 'persona3':
+							cv2.imwrite(imageName, cv2.flip(frame, 1))
+						else:
+							cv2.imwrite(imageName, frame)
 
-				targets.append(letter)
-				if hand == "izq":
-					if persona != 'persona1':
-						cv2.imwrite(imageName, cv2.flip(frame, 1))
 					else:
-						cv2.imwrite(imageName, frame)
-
+						if persona == 'persona3':
+							cv2.imwrite(imageName, cv2.flip(frame, 1))
+						else:
+							cv2.imwrite(imageName, frame)
 				else:
-					if persona == 'persona1':
-						cv2.imwrite(imageName, cv2.flip(frame, 1))
-					else:
-						cv2.imwrite(imageName, frame)
-			else:
-				break
-			frameNr += 1
-		capture.release()
+					break
+				frameNr += 1
+			capture.release()
 		# break
-	personNum +=1
+	# personNum +=1
 
-
-# df['ImageName'] = imageNames
-# df['Target'] = targets
-# df.to_csv('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDataset.csv', index=False)
+df['ImageName'] = imageNames
+df['Target'] = targets
+if os.path.exists('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDataset.csv'):
+	print('Escribiendo un nuevo DactiolologiaDataset')
+	df_global = pd.read_csv('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDataset.csv')
+	df_global = pd.concat([df_global, df], ignore_index = True)
+	df_global.reset_index()
+	df_global.to_csv('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDataset.csv', index=False)
+else:
+	print('Escribiendo un DactiolologiaDataset de la persona', personNum)	
+	df.to_csv('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDatasetPerson'+str(personNum)+'.csv', index=False)
 
 # videoNames = ['avisame', 'bien', 'buenosDias', 'comoEstas', 'duda', 'examen', 'hola', 'mal', 'mandar', 'whatsapp']
 # maxFrames = 0
