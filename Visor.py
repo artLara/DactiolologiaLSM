@@ -18,7 +18,7 @@ class Visor():
         self.__signDetector=SignDetector()
 
         cv2.namedWindow(self.__nombreVentana,cv2.WINDOW_NORMAL)
-        cv2.resizeWindow(self.__nombreVentana, 700, 1020)
+        cv2.resizeWindow(self.__nombreVentana, 920, 1020)
 
         #cv2.namedWindow(self.__nombreVentana2,cv2.WINDOW_NORMAL)
         #cv2.resizeWindow(self.__nombreVentana2, 700, 1020)
@@ -42,10 +42,10 @@ class Visor():
                 letter, sm_value = self.__signDetector.detection(hand.getLandmarks())
                 sm_value = '%.4f'%(sm_value*100)
                 # print('Letter=',letter)
-                cv2.putText(img=img, text='Letra: '+letter+' '+sm_value+'%', org=(10, 50), fontFace=cv2.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(0, 255, 0),thickness=1)
+                cv2.putText(img=img, text='Letra: '+letter+' '+sm_value+'%', org=(10, 50), fontFace=cv2.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(0, 0, 255),thickness=1)
 
             else:
-                cv2.putText(img=img, text='Sin deteccion', org=(10, 50), fontFace=cv2.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(0, 255, 0),thickness=1)
+                cv2.putText(img=img, text='Sin deteccion', org=(10, 50), fontFace=cv2.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(0, 0, 255),thickness=1)
 
             # cv2.imwrite('videoLandMarks/frame'+str(countFrame)+'.jpg', img) #Para guardar
             # countFrame += 1
