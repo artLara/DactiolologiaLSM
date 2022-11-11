@@ -32,22 +32,23 @@ class Visor():
             # try:
                 # Se recupera en frame desde la camara
             img=self.__camara.getFrame()
-
+            img = cv2.flip(img, 1)
             hand, b, imageLandmarks =self.__ssd.handDetection(img)
             if b:
-                handImage = hand.getImg()
+                # handImage = hand.getImg()
                 img = imageLandmarks
                 cv2.rectangle(img,(hand.getMinX(),hand.getMinY()),(hand.getMaxX(),hand.getMaxY()),(0,255,0),2)
-                letter = self.__signDetector.detection(handImage)
-
+                # print('>>>>>>>>Landmarks', hand.getLandmarks())
+                letter, sm_value = self.__signDetector.detection(hand.getLandmarks())
+                sm_value = '%.4f'%(sm_value*100)
                 # print('Letter=',letter)
-                cv2.putText(img=img, text='Letra: '+letter, org=(10, 50), fontFace=cv2.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(0, 255, 0),thickness=1)
+                cv2.putText(img=img, text='Letra: '+letter+' '+sm_value+'%', org=(10, 50), fontFace=cv2.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(0, 255, 0),thickness=1)
 
             else:
                 cv2.putText(img=img, text='Sin deteccion', org=(10, 50), fontFace=cv2.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(0, 255, 0),thickness=1)
 
-            cv2.imwrite('videoLandMarks/frame'+str(countFrame)+'.jpg', img)
-            countFrame += 1
+            # cv2.imwrite('videoLandMarks/frame'+str(countFrame)+'.jpg', img) #Para guardar
+            # countFrame += 1
             cv2.imshow(self.__nombreVentana,img)
 
             if cv2.waitKey(1) & 0xFF == ord('q'):#Metodo para salir, oprimir la letra Q del teclado

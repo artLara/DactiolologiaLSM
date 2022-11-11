@@ -16,6 +16,8 @@ class Hand():
         self.__maxY=0
         self.__alto=None
         self.__ancho=None
+        self.__landmarks=None
+
 
     def getImg(self):
         return self.__img
@@ -33,6 +35,8 @@ class Hand():
         return self.__ancho
     def getCoordenadas(self):
         return self.__coordenadas
+    def getLandmarks(self):
+        return self.__landmarks
 
     ####### SETTERS
     def setImg(self,img):
@@ -51,3 +55,5 @@ class Hand():
         self.__ancho=ancho
     def setCoordenadas(self,coordenadas):
         self.__coordenadas=coordenadas
+    def setLandMarks(self, d):
+        self.__landmarks = d

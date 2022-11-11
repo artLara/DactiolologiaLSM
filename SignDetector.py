@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.keras import models
 class SignDetector():
     def __init__(self):
-        self.model = tf.keras.models.load_model('saved_model_alf/alf_gray')
+        self.model = tf.keras.models.load_model('saved_model/alf_gray')
         self.dictOneHot = {0: 'A',
                          1: 'B',
                          2: 'C',
@@ -12,34 +12,32 @@ class SignDetector():
                          6: 'G',
                          7: 'H',
                          8: 'I',
-                         9: 'J',
-                         10: 'K',
-                         11: 'L',
-                         12: 'M',
-                         13: 'N',
-                         14: 'O',
-                         15: 'P',
-                         16: 'Q',
-                         17: 'R',
-                         18: 'S',
-                         19: 'T',
-                         20: 'U',
-                         21: 'V',
-                         22: 'W',
-                         23: 'X',
-                         24: 'Y',
-                         25: 'Z'}
+                         9: 'L',
+                         10: 'M',
+                         11: 'N',
+                         12: 'O',
+                         13: 'P',
+                         14: 'Q',
+                         15: 'R',
+                         16: 'S',
+                         17: 'T',
+                         18: 'U',
+                         19: 'V',
+                         20: 'W',
+                         21: 'X',
+                         22: 'Y',
+                         23: 'Z'}
 
     def detection(self, img):
         res = self.model.predict(img)
         # print(res)
-        y_p, index_dict = self.getClass(res, self.dictOneHot)
-        return y_p
+        y_p, index_dict, sm_value = self.getClass(res, self.dictOneHot)
+        return y_p, sm_value
 
     def getClass(self, x, dictOneHot):
-        index = self.getClassIndex(x)
+        index, sm_value = self.getClassIndex(x)
         # print(ord(dictOneHot[index]) - ord('A'))
-        return dictOneHot[index], index
+        return dictOneHot[index], index, sm_value
 
     def getClassIndex(self, x):
         for vector in x:
@@ -47,7 +45,7 @@ class SignDetector():
             output = []
             for index, val in enumerate(vector):
                 if maxValue == val:
-                    return index
+                    return index, maxValue
 
 # s = SignDetector()
 # print('FIn')

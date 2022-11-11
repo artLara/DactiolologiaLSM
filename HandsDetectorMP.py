@@ -9,11 +9,41 @@ class HandsDetector():
         self.mp_hands = mp.solutions.hands
         self.mp_drawing_styles = mp.solutions.drawing_styles
         self.handsize = 200
+        self.x = None
+        self.y = None
+        self.bbox = None
+        self.landmarks = None
         # For static images:
         self.hands = self.mp_hands.Hands(
             static_image_mode=False,
             max_num_hands=1,
             min_detection_confidence=0.5)
+
+    def getLandmarks(self):
+        return self.x + self.y
+
+    def get_coord_lists(self, handLadmark, image_shape):
+        all_x, all_y = [], [] # store all x and y points in list
+        for hnd in self.mp_hands.HandLandmark:
+            all_x.append(handLadmark.landmark[hnd].x * image_shape[1])
+            all_y.append(handLadmark.landmark[hnd].y * image_shape[0])
+
+        return all_x, all_y
+
+    def getLandmarksNorm(self):
+        """
+        Mueve X y Y respecto al bounding box, despues lo normaliza respecto al ancho
+        y largo del bounding box
+        """
+        x = []
+        y = []
+        for i in range(len(self.x)):
+            aux = (self.x[i] - self.bbox[0])/(self.bbox[2]-self.bbox[0])
+            x.append(aux)
+            aux = (self.y[i] - self.bbox[1])/(self.bbox[3]-self.bbox[1])
+            y.append(aux)
+
+        return np.asarray([x+y])
 
     def get_bbox_coordinates(self, handLadmark, image_shape):
         """
@@ -43,10 +73,18 @@ class HandsDetector():
         if results.multi_hand_landmarks:
             bbox=(0,0,0,0)
             for hand_landmarks in results.multi_hand_landmarks:
-                print(hand_landmarks)
+                # print(hand_landmarks)
                 bbox = self.get_bbox_coordinates(hand_landmarks, image.shape)
-            for world in results.multi_hand_world_landmarks:
-                print(world)
+                self.bbox = self.get_bbox_coordinates(hand_landmarks, image.shape)
+                self.x, self.y = self.get_coord_lists(hand_landmarks, image.shape)
+                self.mp_drawing.draw_landmarks(
+                    image,
+                    hand_landmarks,
+                    self.mp_hands.HAND_CONNECTIONS,
+                    self.mp_drawing_styles.get_default_hand_landmarks_style(),
+                    self.mp_drawing_styles.get_default_hand_connections_style())
+            # for world in results.multi_hand_world_landmarks:
+                # print(world)
 
             # cv2.rectangle(image,(bbox[0],bbox[1]),(bbox[2],bbox[3]),(0,255,0),2)
             hand.setCoordenadas(bbox)
@@ -56,42 +94,45 @@ class HandsDetector():
             hand.setMinY(bbox[1])
             hand.setMaxX(bbox[2])
             hand.setMaxY(bbox[3])
-            bbox=list(bbox)
-            aux=np.zeros((self.handsize, self.handsize), dtype=int)
-            handImage=image_gray[bbox[1]:bbox[3], bbox[0]:bbox[2]]
-            selfieWidth = bbox[2] - bbox[0]
-            selfieHeight = bbox[3] - bbox[1]
-            if selfieHeight>selfieWidth:
-                newWidth = int(selfieWidth * self.handsize / selfieHeight)
-
-                #Resize (208,newWidth)
-                #Formato de cv2.resize (width, height)
-                handImage = cv2.resize(handImage, (newWidth, self.handsize))
-                margin = int((self.handsize-newWidth)/2)
-                aux[:, margin:margin+newWidth] = handImage[:,:]
-                #aux=cv2.cvtColor(aux, cv2.COLOR_BGR2RGB)
-                #aux[margin:margin+newWidth, :, :]=selfieImage[:,:,:]
-
-            else:
-                newHeight = int(selfieHeight *self.handsize / selfieWidth)
-                #Resize (newHeight,208)
-                handImage = cv2.resize(handImage, (self.handsize,newHeight))
-                margin = int((self.handsize-newHeight)/2)
-                aux[margin:margin+newHeight, :]=handImage[:,:]
-            aux = np.float32(aux) / 255.0
-            # hand.setImg(aux)
-            l = []
-            l.append(aux)
-            l=np.asarray(l)
-            hand.setImg(l)
+            hand.setLandMarks(self.getLandmarksNorm())
+            # bbox=list(bbox)
+            # aux=np.zeros((self.handsize, self.handsize), dtype=int)
+            # handImage=image_gray[bbox[1]:bbox[3], bbox[0]:bbox[2]]
+            # selfieWidth = bbox[2] - bbox[0]
+            # selfieHeight = bbox[3] - bbox[1]
+            # if selfieHeight>selfieWidth:
+            #     newWidth = int(selfieWidth * self.handsize / selfieHeight)
+            #
+            #     #Resize (208,newWidth)
+            #     #Formato de cv2.resize (width, height)
+            #     handImage = cv2.resize(handImage, (newWidth, self.handsize))
+            #     margin = int((self.handsize-newWidth)/2)
+            #     aux[:, margin:margin+newWidth] = handImage[:,:]
+            #     #aux=cv2.cvtColor(aux, cv2.COLOR_BGR2RGB)
+            #     #aux[margin:margin+newWidth, :, :]=selfieImage[:,:,:]
+            #
+            # else:
+            #     newHeight = int(selfieHeight *self.handsize / selfieWidth)
+            #     #Resize (newHeight,208)
+            #     handImage = cv2.resize(handImage, (self.handsize,newHeight))
+            #     margin = int((self.handsize-newHeight)/2)
+            #     aux[margin:margin+newHeight, :]=handImage[:,:]
+            # aux = np.float32(aux) / 255.0
+            # # hand.setImg(aux)
+            # l = []
+            # l.append(aux)
+            # l=np.asarray(l)
+            # hand.setImg(l)
             b = True
-            for hand_landmarks in results.multi_hand_landmarks:
-                self.mp_drawing.draw_landmarks(
-                    image,
-                    hand_landmarks,
-                    self.mp_hands.HAND_CONNECTIONS,
-                    self.mp_drawing_styles.get_default_hand_landmarks_style(),
-                    self.mp_drawing_styles.get_default_hand_connections_style())
+            # for hand_landmarks in results.multi_hand_landmarks:
+            #     self.bbox = self.get_bbox_coordinates(hand_landmarks, image.shape)
+            #     self.x, self.y = self.get_coord_lists(hand_landmarks, image.shape)
+            #     self.mp_drawing.draw_landmarks(
+            #         image,
+            #         hand_landmarks,
+            #         self.mp_hands.HAND_CONNECTIONS,
+            #         self.mp_drawing_styles.get_default_hand_landmarks_style(),
+            #         self.mp_drawing_styles.get_default_hand_connections_style())
 
             # print(l.shape)
 
