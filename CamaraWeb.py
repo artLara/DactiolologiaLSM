@@ -2,7 +2,7 @@ import cv2
 
 class CamaraWeb():
     def __init__(self):
-        self.__cap = cv2.VideoCapture(0)
+        self.__cap = cv2.VideoCapture(2)
 
     def getFrame(self):
         validated, img = self.__cap.read()

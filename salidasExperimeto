@@ -1,0 +1,3754 @@
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 12:42:18.736321: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 12:42:18.736394: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 12:42:18.736459: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+
+Traceback (most recent call last):
+  File "Visor.py", line 70, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 12:54:57.978854: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 12:54:57.978909: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 12:54:57.978957: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Traceback (most recent call last):
+  File "Visor.py", line 69, in <module>
+    vi = Visor()
+  File "Visor.py", line 27, in __init__
+    self.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 12:56:08.449007: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 12:56:08.449203: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 12:56:08.449258: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[ WARN:0@4.763] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+Traceback (most recent call last):
+  File "Visor.py", line 69, in <module>
+    vi = Visor()
+  File "Visor.py", line 27, in __init__
+    self.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 avalibleCamera.py 
+Camera index available: 0
+[ WARN:0@0.185] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+[ WARN:0@0.185] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video2): can't open camera by index
+[ WARN:0@0.185] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video3): can't open camera by index
+[ WARN:0@0.185] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video4): can't open camera by index
+[ WARN:0@0.185] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video5): can't open camera by index
+[ WARN:0@0.185] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video6): can't open camera by index
+[ WARN:0@0.185] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video7): can't open camera by index
+[ WARN:0@0.185] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video8): can't open camera by index
+[ WARN:0@0.186] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video9): can't open camera by index
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 avalibleCamera.py 
+Camera index available: 0
+[ WARN:0@0.190] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video1): can't open camera by index
+Camera index available: 2
+[ WARN:0@0.202] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video3): can't open camera by index
+[ WARN:0@0.202] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video4): can't open camera by index
+[ WARN:0@0.203] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video5): can't open camera by index
+[ WARN:0@0.203] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video6): can't open camera by index
+[ WARN:0@0.203] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video7): can't open camera by index
+[ WARN:0@0.203] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video8): can't open camera by index
+[ WARN:0@0.203] global /io/opencv/modules/videoio/src/cap_v4l.cpp (902) open VIDEOIO(V4L2:/dev/video9): can't open camera by index
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:04:47.116746: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:04:47.116795: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:04:47.116847: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 234ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 25ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 24ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 37ms/step
+1/1 [==============================] - 0s 37ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 37ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 39ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 37ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+YYYYYQQQQQQQQQQQQQQQQQQQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALLLLLLLLLLLLLLAAWBBAZPAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCDDDDDDDDDDDDDDDDDD
+Traceback (most recent call last):
+  File "Visor.py", line 70, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:06:09.596470: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:06:09.596516: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:06:09.596562: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 191ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 38ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 39ms/step
+1/1 [==============================] - 0s 37ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 37ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 36ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+YGGGGGGGGGGGGGGHHHHHHHHHHHHHHHHHHHHHOOOOOOOOOOOOLLLLLLLLLLLLLLLLLAAAAAAAAAAAAAAAZ
+Traceback (most recent call last):
+  File "Visor.py", line 70, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:06:38.310405: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:06:38.310463: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:06:38.310509: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 188ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+YHHHHHHHHHHOOODLLLLAAAAAAAAAA
+Traceback (most recent call last):
+  File "Visor.py", line 70, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:06:58.382939: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:06:58.383001: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:06:58.383049: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 161ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+YYGGGGGGGGOOOLLLAAA
+Traceback (most recent call last):
+  File "Visor.py", line 70, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:07:19.287442: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:07:19.287507: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:07:19.287559: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 172ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+GGHHHHHHHHCOOOAAAAAZ
+Traceback (most recent call last):
+  File "Visor.py", line 70, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+^[[Alara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:07:33.773883: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:07:33.773941: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:07:33.773992: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 140ms/step
+Mano no detectada
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 32ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+GHHHHHHOOOAAAAAL
+Traceback (most recent call last):
+  File "Visor.py", line 70, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:07:47.028448: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:07:47.028544: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:07:47.028622: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 190ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 41ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 42ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 37ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 54ms/step
+1/1 [==============================] - 0s 37ms/step
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 45ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 35ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+GHHHHHHHHHOOOOLLLAAAA
+Traceback (most recent call last):
+  File "Visor.py", line 70, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:19:26.644716: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:19:26.644764: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:19:26.644806: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 169ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+WFFFFAAAAAAAAAAAAAA
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:20:25.540298: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:20:25.540357: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:20:25.540406: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 167ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 26ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+GDHHHHHHHHHHHHHHHOOOOAAAALLLSN
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:20:43.807788: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:20:43.807842: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:20:43.807889: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 155ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+HHHHHHHHHHHOOOOOOOLLLLLAAAAAA
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    hand, b, imageLandmarks =self.__ssd.handDetection(img)
+  File "/home/lara/Desktop/DactiolologiaLSM/HandsDetectorMP.py", line 68, in handDetection
+    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:23:05.057779: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:23:05.057856: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:23:05.057919: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 146ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+HHHHHHHHGGGGGGGGGGGGGGGGGGGGGGRRRRRRRRRRRRRRUAAAACCCCCCCCIIIIIAAAAAAASSSSSSSSSSSSAAAAAAAAASSSSSTTSTSTSTTTTTTTSSSTTCOOOOOOOOOOOOODDDDDDDDDDDDDDDDOOOOOOOOOOOOOOOOOSSSSSSSSSSSSS
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:31:30.821646: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:31:30.821696: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:31:30.821744: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 148ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+GGGGGGGGGGGTRRDDAAAACCCIIIAAAAASSSSSSSAAAASLTTTOOOODDDOSSSSSOOOOOOOOOOOODDDOOOOOASSSS
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:34:34.731922: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:34:34.731981: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:34:34.732028: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 142ms/step
+Mano no detectada
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 41ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 24ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+Mano no detectada
+Mano no detectada
+YGGGGGGGGGGGGGDRRAAAECOIIAAASSSSSSSFAAAAASSSSSSWLIAWTTTTSEOOOEDDDDDDDDDDOSASSETTTCOOISEOOOOAAAAAAAAAAAASTTTTTTTTTTSDODDDDSSOOOOOODDDDDOOOOAASSSSS
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -r video
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -r videoLandMarks/
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:38:34.283921: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:38:34.283976: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:38:34.284022: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 172ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 30ms/step
+LLLLLLLLLLLLLLLAAAAAAAAAECCCCCCCCCOOOOOOOEMMMMMMMMMMMMIIIIIIIIIIIIIODDDDDDDDDDDDDDDDDDDDDAAAAAAAAAAAAAAODDDDDDDDDDDEEEEEEEEEEELLLLLLLLLLLTYGGGGGGGGGGGGGGPAAAAAAAAAAAAETTTTTTTTTTTTDOOOOOOOOOOOO
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -r /videoLandMarks/
+rm: cannot remove '/videoLandMarks/': No such file or directory
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -r /videoLandMarks
+rm: cannot remove '/videoLandMarks': No such file or directory
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm /videoLandMarks/*.*
+rm: cannot remove '/videoLandMarks/*.*': No such file or directory
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm /home/lara/Desktop/DactiolologiaLSM//videoLandMarks/*.jpg
+rm: cannot remove '/home/lara/Desktop/DactiolologiaLSM//videoLandMarks/*.jpg': No such file or directory
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM//videoLandMarks/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:47:58.102197: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:47:58.102249: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:47:58.102298: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 160ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+LLLLLLLLLLLAAAAAACCCCCOOOOOZMMMMMNIIIIIDDDDDAAAAAAAALDDDDDDEEEEELLLLLLPGGGGGAAAAAASSTTTTCOOOOOOOO
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/videoLandMarks/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/video/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:50:18.444725: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:50:18.444784: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:50:18.444832: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 153ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+Mano no detectada
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+LLLLLLLLLLLLAAAAAACCCCEOOOOMMMIIIIAALDDDDDDDDAAAAODDDEEEEELLLLLLGGGGGAAAAAAAALTSSDOOOC
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/video/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/videoLandMarks/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:52:13.926715: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:52:13.926787: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:52:13.926845: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 146ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+Mano no detectada
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 35ms/step
+1/1 [==============================] - 0s 27ms/step
+Mano no detectada
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+EEEEEEEEEEEEEELLLLLLLCCCCCCCCOOOOOOOOOOOSMMMMMMMMMMMMMMMLLLLLLLLLLUUUUUUUVUUUUUUUUUUUUUUUDMMNMMMMMMMPPPPPPPPPPPPPPPPPPPPIIIIIIIIIIIICOOOOOOOOOOODUVVVVVVVVVVVVEEEEEEEERRRRRRRRRRRRDDDDDDDDDDDDEEEEEEEEEEE
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:54:25.376671: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:54:25.376723: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:54:25.376771: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+qMano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/videoLandMarks/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/video/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:55:09.500933: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:55:09.500993: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:55:09.501037: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 153ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 30ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+EEEEEEEEEEEEEEEELLLLLLLLLLLCCCCCCCCCCCOOOOOOOOOOOCLLLLLLLLLLLLLDUUUUUUUUUUUUUOMMMMMNMMMMMMZZZPPPPPPPPPPPPPPIIIIIIIIIIIIIOOOOOOOOOOOOOOOODVVVVVVVVVEEEEEEEEEEEEERRRRRRRRRRRDDDDDDDDDDDEEEEEEEEEEEEE
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/video/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/videoLandMarks/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 13:56:52.044459: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 13:56:52.044514: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 13:56:52.044561: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 156ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 31ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 34ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+BEEEEEEEEEILLLLLLLLLLLCCCCCCOOOOOLLLLLLLUUUUUNNMMMMMMMMPPPPPPPPPPIIIIOOOOOOOSVVVVVVDEEEEEEEEEEEEURRRRDDDDDEEEE
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/videoLandMarks/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/video/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 14:01:29.213509: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 14:01:29.213561: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 14:01:29.213607: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 146ms/step
+Mano no detectada
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 36ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+LEEEEEEEEEEEELLLLCCCCCCCCCOOOODLLLLNNNNNM
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/video/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ rm -rf /home/lara/Desktop/DactiolologiaLSM/videoLandMarks/*
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 Visor.py
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (1.26.10) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+2022-11-23 14:01:52.603364: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/lara/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2022-11-23 14:01:52.603425: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-11-23 14:01:52.603463: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (lara-HP): /proc/driver/nvidia/version does not exist
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+Mano no detectada
+1/1 [==============================] - 0s 157ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 27ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+Mano no detectada
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 23ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 28ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 29ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 32ms/step
+1/1 [==============================] - 0s 24ms/step
+1/1 [==============================] - 0s 33ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 26ms/step
+1/1 [==============================] - 0s 25ms/step
+1/1 [==============================] - 0s 31ms/step
+EEEEEEEEEELLLLLLLLCCCOOOOOOODLLLLZNUUUUUURDNMMMMLPPPPPPPPPPPPPPPIIIIIOOOOOOOCVVVVVVVVVVVEEEERRRRRDDDDDDEEEE
+Traceback (most recent call last):
+  File "Visor.py", line 71, in <module>
+    vi.iniciar()
+  File "Visor.py", line 37, in iniciar
+    cv2.imwrite('video/frame'+str(countFrame)+'.jpg', img) #Para guardar
+cv2.error: OpenCV(4.6.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:801: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ python3 makeVideo.py 
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+OpenCV: FFMPEG: tag 0x5634504d/'MP4V' is not supported with codec id 12 and format 'mp4 / MP4 (MPEG-4 Part 14)'
+OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
+lara@lara-HP:~/Desktop/DactiolologiaLSM$ 
+
