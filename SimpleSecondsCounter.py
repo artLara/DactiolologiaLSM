@@ -19,3 +19,10 @@ class SecondCounter():
             # print("Count ", self.__firstInterval - time.time())
             return time.time() - self.__firstInterval >= condition
         return False
+
+    def finished(self, condition=2):
+        if self.__counting:
+            # self.__counting = False
+            # print("Count ", self.__firstInterval - time.time())
+            return time.time() - self.__firstInterval >= condition
+        return False
