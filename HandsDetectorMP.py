@@ -68,7 +68,7 @@ class HandsDetector():
         image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
         results = self.hands.process(image)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        # image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         b = False
         if results.multi_hand_landmarks:
             bbox=(0,0,0,0)

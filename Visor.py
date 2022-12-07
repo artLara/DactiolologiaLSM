@@ -7,6 +7,8 @@ from HandsDetectorMP import HandsDetector
 from CamaraWeb import CamaraWeb
 from Hand import Hand
 from SignDetector import SignDetector
+from SimpleSecondsCounter import SecondCounter
+from CleanSentence import getCleanSentence
 
 from PIL import Image
 from time import time
@@ -14,6 +16,7 @@ class Visor():
 
     def __init__(self):
         self.__frase = ""
+        self.__count = SecondCounter()
         self.__nombreVentana="Alphabet Detection"
         self.__ssd=HandsDetector()
         self.__signDetector=SignDetector()
@@ -38,6 +41,8 @@ class Visor():
             hand, b, imageLandmarks =self.__ssd.handDetection(img)
             if b:
                 # handImage = hand.getImg()
+                if self.__count.finishCount(2):
+                    self.__frase += " "
                 img = imageLandmarks
                 cv2.rectangle(img,(hand.getMinX(),hand.getMinY()),(hand.getMaxX(),hand.getMaxY()),(0,255,0),2)
                 # print('>>>>>>>>Landmarks', hand.getLandmarks())
@@ -47,7 +52,9 @@ class Visor():
                 cv2.putText(img=img, text='Letra: '+letter+' '+sm_value+'%', org=(10, 50), fontFace=cv2.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(0, 0, 255),thickness=1)
                 self.__frase += letter
             else:
-                cv2.putText(img=img, text='Sin deteccion', org=(10, 50), fontFace=cv2.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(0, 0, 255),thickness=1)
+                # cv2.putText(img=img, text='Sin deteccion', org=(10, 50), fontFace=cv2.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(0, 0, 255),thickness=1)
+                if not self.__count.isCounting():
+                    self.__count.startCount()
 
             # cv2.imwrite('videoLandMarks/frame'+str(countFrame)+'.jpg', img) #Para guardar
             countFrame += 1
@@ -65,7 +72,8 @@ class Visor():
     def finalizar(self):
         self.__camara.desconectar()
         cv2.destroyAllWindows()
-        print(self.__frase)
+        print(self.__frase.lower())
+        print(getCleanSentence(self.__frase))
 
 vi = Visor()
 vi.iniciar()
