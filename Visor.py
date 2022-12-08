@@ -2,6 +2,9 @@
 import cv2
 import numpy as np
 import time
+from time import sleep
+import asyncio
+from threading import Thread
 
 from HandsDetectorMP import HandsDetector
 from CamaraWeb import CamaraWeb
@@ -15,6 +18,8 @@ from time import time
 
 from PyQt5.QtWidgets import QApplication,QMainWindow,QMessageBox
 from PyQt5.uic import loadUi
+from PyQt5.QtGui import QPixmap
+from PyQt5.QtCore import QTimer, QEventLoop
 from main import MainWindow
 
 class Visor(QMainWindow):
@@ -23,7 +28,8 @@ class Visor(QMainWindow):
         super(Visor,self).__init__(parent)
         loadUi("dactiolologia_ui.ui",self)
         self.delete_button.clicked.connect(self.deleteEditText)
-        self.play_button.clicked.connect(self.playButton)
+        # self.play_button.clicked.connect(self.playButton)
+        self.thread = None
 
         self.__frase = ""
         self.__word = ""
@@ -43,9 +49,28 @@ class Visor(QMainWindow):
         #cv2.resizeWindow(self.__nombreVentana2, 700, 1020)
         self.__camara=CamaraWeb()
 
-    def playButton(self):
-        msg = self.textEdit.toPlainText()
-        self.textEdit.setText("")
+    # def spanish2lsm(self, sentence):
+    #     for word in sentence.split(" "):
+    #         for letter in word:
+    #             counterAux = SecondCounter()
+    #             counterAux.startCount()
+    #             self.pixmap = QPixmap('ImagenesAbecedario/'+letter+'.jpg')
+    #             # adding image to label
+    #             self.image_sign.setPixmap(self.pixmap)
+    #
+    #             sleep(1)
+    #             # await asyncio.sleep(1)
+    #             # loop = QEventLoop()
+    #             # QTimer.singleShot(2000, loop.quit)
+    #             # loop.exec_()
+    #
+    # def playButton(self):
+    #     msg = self.textEdit.toPlainText()
+    #     # self.thread = Thread(target=self.spanish2lsm, args=msg)
+    #     # self.thread.start()
+    #     # self.thread.join()
+    #     # self.spanish2lsm(msg)
+    #     self.textEdit.setText("")
 
     def deleteEditText(self):
         self.translate.setText("")

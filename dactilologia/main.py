@@ -7,9 +7,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self, *args, **kwargs):
         QtWidgets.QMainWindow.__init__(self, *args, **kwargs)
         self.setupUi(self)
-        self.pixmap = QPixmap('frame0.jpg')
-        # adding image to label
-        self.image_sign.setPixmap(self.pixmap)
+        # self.pixmap = QPixmap('frame0.jpg')
+        # # adding image to label
+        # self.image_sign.setPixmap(self.pixmap)
 
     def start_gui(self):
         app = QtWidgets.QApplication([])
