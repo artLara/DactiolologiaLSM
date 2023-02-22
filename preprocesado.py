@@ -2,19 +2,23 @@ import cv2
 import os
 import pandas as pd
 dir_path = 'D:\\CIC\\LSM\\DactiolologiaLSM\\videosPersonas\\limpios\\'
-image_path = 'D:\\CIC\\LSM\\DactiolologiaLSM\\images\\'
+image_path = 'D:\\CIC\\LSM\\DactiolologiaLSM\\imagesJ\\'
 df = pd.DataFrame()
 imageNames = []
 targets = []
 # df['ImageName'] = namesTrain
 # df['Target'] = classesTrain
-personNum = 3
+personNum = 1
 for persona in os.listdir(dir_path):
 	print(persona)
-	if persona == 'persona3':
+	if persona == 'persona1':
 		videoPath = dir_path+persona+'\\'
 		for videoName in os.listdir(videoPath):
 			letter = videoName.split('_')[0]
+			if letter != 'j' and letter != 'ñ':
+				continue
+
+			print(letter)
 			hand = (videoName.split('_')[1]).split('.')[0]
 			# if letter != 'a':
 			# 	continue
@@ -31,21 +35,28 @@ for persona in os.listdir(dir_path):
 					targets.append(letter)
 					if hand == "izq":
 						if persona != 'persona3':
-							cv2.imwrite(imageName, cv2.flip(frame, 1))
+							# cv2.imwrite(imageName, cv2.flip(frame, 1))
+							# cv2.flip(frame, 1).tofile(imageName)
+							cv2.imencode(".jpg",cv2.flip(frame, 1))[1].tofile(imageName)
+
 						else:
-							cv2.imwrite(imageName, frame)
+							cv2.imwrite(imageName.encode('utf-8'), frame)
 
 					else:
 						if persona == 'persona3':
-							cv2.imwrite(imageName, cv2.flip(frame, 1))
+							cv2.imwrite(imageName.encode('utf-8'), cv2.flip(frame, 1))
 						else:
-							cv2.imwrite(imageName, frame)
+							# cv2.imwrite(imageName, frame)
+							# frame.tofile(imageName)
+							cv2.imencode(".jpg",frame)[1].tofile(imageName)
+					# break
 				else:
 					break
 				frameNr += 1
 			capture.release()
+			#break
 		# break
-	# personNum +=1
+	personNum +=1
 
 df['ImageName'] = imageNames
 df['Target'] = targets
@@ -54,10 +65,10 @@ if os.path.exists('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDataset.csv'):
 	df_global = pd.read_csv('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDataset.csv')
 	df_global = pd.concat([df_global, df], ignore_index = True)
 	df_global.reset_index()
-	df_global.to_csv('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDataset.csv', index=False)
+	df_global.to_csv('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDataset.csv', encoding='utf-8-sig', index=False)
 else:
 	print('Escribiendo un DactiolologiaDataset de la persona', personNum)	
-	df.to_csv('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDatasetPerson'+str(personNum)+'.csv', index=False)
+	df.to_csv('D:\\CIC\\LSM\\DactiolologiaLSM\\DactiolologiaDatasetPerson'+str(personNum)+'.csv', encoding='utf-8-sig', index=False)
 
 # videoNames = ['avisame', 'bien', 'buenosDias', 'comoEstas', 'duda', 'examen', 'hola', 'mal', 'mandar', 'whatsapp']
 # maxFrames = 0
