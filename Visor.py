@@ -98,7 +98,7 @@ class Visor(QMainWindow):
                     self.translate.setText(self.translate.toPlainText() + self.__word+ " ")
                 self.__word = ""
 
-            if b:
+            if b:#Se detecta una mano
                 # handImage = hand.getImg()
                 # if not self.__inactiveCount.isCounting():
                 #     self.__inactiveCount.startCount()
