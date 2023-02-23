@@ -95,6 +95,7 @@ class HandsDetector():
             hand.setMaxX(bbox[2])
             hand.setMaxY(bbox[3])
             hand.setLandMarks(self.getLandmarksNorm())
+            hand.setLandMarksRaw(np.asarray([self.x+self.y]))
             # bbox=list(bbox)
             # aux=np.zeros((self.handsize, self.handsize), dtype=int)
             # handImage=image_gray[bbox[1]:bbox[3], bbox[0]:bbox[2]]

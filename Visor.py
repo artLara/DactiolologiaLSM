@@ -39,6 +39,7 @@ class Visor(QMainWindow):
         self.__nombreVentana="Alphabet Detection"
         self.__ssd=HandsDetector()
         self.__signDetector=SignDetector()
+        self.__MAXKFRAMES = 5
         # self.__gui = MainWindow()
         # self.__gui.start_gui()
 
@@ -77,6 +78,11 @@ class Visor(QMainWindow):
 
     def iniciar(self):
         countFrame = 0
+        p_moving = False
+        k1 = (0,0)
+        k2 = (0,0)
+
+        k_counter = self.__MAXKFRAMES
         while(True):
             # try:
                 # Se recupera en frame desde la camara
@@ -123,6 +129,28 @@ class Visor(QMainWindow):
                 cv2.putText(img=img, text='Letra: '+letter+' '+sm_value+'%', org=(10, 50), fontFace=cv2.FONT_HERSHEY_TRIPLEX, fontScale=1, color=(0, 0, 255),thickness=1)
                 self.__frase += letter
                 self.__word += letter
+                # print(hand.getLandmarks())
+                if letter == 'P' and not p_moving:
+                    k1 = (hand.getLandmarksRaw()[0][8], hand.getLandmarksRaw()[0][29])
+                    k2 = (hand.getLandmarksRaw()[0][12], hand.getLandmarksRaw()[0][33])
+                    # print(k1,k2)
+                    # print('Buscando K')
+                    p_moving = True
+
+                if p_moving and k_counter > 0:
+                    c_k1 = (hand.getLandmarksRaw()[0][8], hand.getLandmarksRaw()[0][29])
+                    c_k2 = (hand.getLandmarksRaw()[0][12], hand.getLandmarksRaw()[0][33])
+
+                    if self.detectK(k1,k2,c_k1,c_k2):
+                        self.__word = 'K'
+                        print('K IS DETECTED!!!!!!!!!!!!!!!!!!!!!!!!')
+                        p_moving = False
+                        k_counter = self.__MAXKFRAMES
+                    else:
+                        k_counter -= 1
+                else:
+                    p_moving = False
+                    k_counter = self.__MAXKFRAMES
 
                 # self.translate.setText(self.__frase)
             else:
@@ -143,6 +171,21 @@ class Visor(QMainWindow):
 
         self.finalizar()
 
+    def detectK(self,k1,k2,ck1,ck2):
+        t = 0.3 #Tolerancia de error
+        # print('k1=',k1,'k2=',k2)
+        # print('ck1=',ck1,'ck2=',ck2)
+
+        if k2[1]-k2[1]*t <= ck1[1] <= k2[1]+k2[1]*t:#k1 ~ k2
+            # print('Pasa 1')
+            if ck2[1]-ck2[1]*t <= abs(k2[1]-k1[1]) + k2[1] <= ck2[1]+ck2[1]*t: #d(k1,k2)+k2~ ck2
+                # print('Pasa 2')
+
+                if ck1[0]-ck1[0]*t <= k1[0] <= ck1[0]+ck1[0]*t and ck2[0]-ck2[0]*t <= k2[0] <= ck2[0]+ck2[0]*t: #Movimiento en #x:
+                    # print('Pasa 3')
+                    return True
+
+        return False
     def finalizar(self):
         self.__camara.desconectar()
         cv2.destroyAllWindows()
