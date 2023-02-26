@@ -34,8 +34,9 @@ def findCorrectWord(word2clean):
         if len(validwords) >= 5:
             break
 
-    #for v in validwords:
-        #print(v[0], v[1] + spell[v[0]]/maxNumWords*0.3)
+    for v in validwords:
+        # print(v[0])
+        print(v[0], v[1] + spell[v[0]]/maxNumWords*0.3)
     return max(validwords, key= lambda x: x[1] + spell[x[0]]/maxNumWords*0.3)[0]
 def getCleanSentence(sentence):
     cleanSentence = ""
