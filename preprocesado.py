@@ -11,7 +11,7 @@ targets = []
 personNum = 1
 for persona in os.listdir(dir_path):
 	print(persona)
-	if persona == 'persona1':
+	if persona == 'persona3':
 		videoPath = dir_path+persona+'\\'
 		for videoName in os.listdir(videoPath):
 			letter = videoName.split('_')[0]
@@ -40,11 +40,15 @@ for persona in os.listdir(dir_path):
 							cv2.imencode(".jpg",cv2.flip(frame, 1))[1].tofile(imageName)
 
 						else:
-							cv2.imwrite(imageName.encode('utf-8'), frame)
+							# cv2.imwrite(imageName.encode('utf-8'), frame)
+							cv2.imencode(".jpg",frame)[1].tofile(imageName)
+
 
 					else:
 						if persona == 'persona3':
-							cv2.imwrite(imageName.encode('utf-8'), cv2.flip(frame, 1))
+							# cv2.imwrite(imageName.encode('utf-8'), cv2.flip(frame, 1))
+							cv2.imencode(".jpg",cv2.flip(frame, 1))[1].tofile(imageName)
+
 						else:
 							# cv2.imwrite(imageName, frame)
 							# frame.tofile(imageName)
