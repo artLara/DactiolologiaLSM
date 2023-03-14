@@ -11,7 +11,7 @@ targets = []
 personNum = 1
 for persona in os.listdir(dir_path):
 	print(persona)
-	if persona == 'persona3':
+	if persona == 'persona2':
 		videoPath = dir_path+persona+'\\'
 		for videoName in os.listdir(videoPath):
 			letter = videoName.split('_')[0]
