@@ -3,13 +3,14 @@ import mediapipe as mp
 import numpy as np
 from Hand import Hand
 class HandsDetector():
-    def __init__(self):
+    def __init__(self, confidenseMP = 0.5, offsetBoundingBox = 50):
+        self.__offsetBoundingBox = offsetBoundingBox
         self.mp_hands = mp.solutions.hands
         # For static images:
         self.hands = self.mp_hands.Hands(
             static_image_mode=False,
             max_num_hands=1,
-            min_detection_confidence=0.5)
+            min_detection_confidence=confidenseMP)
 
     def get_coord_lists(self, handLadmark, image_shape):
         all_x, all_y = [], [] # store all x and y points in list
@@ -44,7 +45,7 @@ class HandsDetector():
             A tuple of the form (xmin, ymin, xmax, ymax).
         """
         all_x, all_y = [], [] # store all x and y points in list
-        offset = 50
+        offset = self.__offsetBoundingBox
         for hnd in self.mp_hands.HandLandmark:
             all_x.append(int(handLadmark.landmark[hnd].x * image_shape[1])) # multiply x by image width
             all_y.append(int(handLadmark.landmark[hnd].y * image_shape[0])) # multiply y by image height

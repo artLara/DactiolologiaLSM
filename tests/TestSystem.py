@@ -1,0 +1,29 @@
+import sys
+sys.path.insert(0, '../src')
+from FingerSpelling import FingerSpelling
+from CamaraWeb import CamaraWeb
+import cv2
+class TestSystem():
+    def __init__(self, source=None):
+        self.__fingerSpelling = FingerSpelling()
+        self.__camara=CamaraWeb(source)
+
+    def testPhrase(self):
+        self.__fingerSpelling.newPhrase()
+        validated, img = self.__camara.getFrame()
+        while(validated):
+            img = cv2.flip(img, 1) #Changein case of left hand
+            self.__fingerSpelling.testRun(img)
+            validated, img = self.__camara.getFrame()
+        self.__fingerSpelling.printTestResult()
+
+    def runTest(self):
+        print('Start test')
+        path = '../tests/phrasesLSM/'
+        self.__camara.setSource(source=path+'phrase_de_nada.mp4')
+        self.testPhrase()
+
+
+path = '../tests/phrasesLSM/'
+test = TestSystem(source=path+'phrase_de_nada.mp4')
+test.runTest()

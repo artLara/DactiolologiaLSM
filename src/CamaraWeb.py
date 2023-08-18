@@ -4,8 +4,11 @@ class CamaraWeb():
     def __init__(self, source=None):
         if source == None:
             self.__cap = cv2.VideoCapture(0)
-        else
+        else:
             self.__cap = cv2.VideoCapture(source)
+
+    def setSource(self, source):
+        self.__cap = cv2.VideoCapture(source)
 
     def getFrame(self):
         # return cv2.flip(img, 1)

@@ -1,9 +1,9 @@
 import tensorflow as tf
 from tensorflow.keras import models
-class SignDetector():
+class SignClassification():
     def __init__(self):
-        self.model = tf.keras.models.load_model('saved_model/alf_gray')
-        self.dictOneHot = {0: 'A',
+        self.__model = tf.keras.models.load_model('../bin/saved_model/alf_gray')
+        self.__dictOneHot = {0: 'A',
                          1: 'B',
                          2: 'C',
                          3: 'D',
@@ -28,10 +28,10 @@ class SignDetector():
                          22: 'Y',
                          23: 'Z'}
 
-    def detection(self, img):
-        res = self.model.predict(img)
+    def classification(self, pattern):
+        res = self.__model.predict(pattern, verbose=0)
         # print(res)
-        y_p, index_dict, sm_value = self.getClass(res, self.dictOneHot)
+        y_p, index_dict, sm_value = self.getClass(res, self.__dictOneHot)
         return y_p, sm_value
 
     def getClass(self, x, dictOneHot):
@@ -46,6 +46,3 @@ class SignDetector():
             for index, val in enumerate(vector):
                 if maxValue == val:
                     return index, maxValue
-
-# s = SignDetector()
-# print('FIn')

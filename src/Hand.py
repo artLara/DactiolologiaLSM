@@ -21,6 +21,7 @@ class Hand():
         self.__landmarks = None
         self.__boundingBox = None
         self.__letter = ""
+        self.__confidense = None
 
 
     # def getImg(self):
@@ -51,6 +52,8 @@ class Hand():
         return self.__boundingBox
     def getLetter(self):
         return self.__letter
+    def getConfidense(self):
+        return self.__confidense
 
     ####### SETTERS
     # def setImg(self,img):
@@ -81,3 +84,5 @@ class Hand():
         self.__boundingBox = tmp
     def setLetter(self, tmp):
         self.__letter = tmp
+    def setConfidense(self, tmp):
+        self.__confidense = tmp
