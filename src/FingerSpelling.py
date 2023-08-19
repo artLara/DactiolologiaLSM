@@ -2,12 +2,14 @@ import sys
 sys.path.append('../')
 from HandsDetectorMP import HandsDetector
 from LetterDetector import LetterDetector
-
+from SimpleSecondsCounter import SecondCounter
+from KLetterDetector import KLetterDetector
 class FingerSpelling():
     def __init__(self,parent=None):
         self.__phrase = ""
         self.__letterDetector = LetterDetector()
-        self.__secondsCounter = None
+        self.__secondsCounter = SecondCounter()
+        self.__kLetterDetector = KLetterDetector()
         self.__doubleLettersDetector = None
         self.__phraseCleaner = None
         self.__secuenceHands = []
@@ -37,11 +39,33 @@ class FingerSpelling():
     ####################TEST MODE##############################
     def testRun(self, image):
         hand = self.__letterDetector.detect(image)
-        if hand != None:
-            self.__countLettersDetected += 1
-            self.__phrase += hand.getLetter()
-            return
-        self.__countLettersNotDetected += 1
+        if hand == None:
+            #Hand did not detect
+            self.__countLettersNotDetected += 1
+            #Start counter
+            if not self.__secondsCounter.isCounting():
+                self.__secondsCounter.startCount()
+
+            #Separation between words
+            if self.__secondsCounter.finished(2):
+                self.__phrase += ' '
+
+            #The phrase is complete
+            if self.__secondsCounter.finished(4):
+                return True
+
+            return False
+
+        self.__secondsCounter.finishCount()
+        self.__countLettersDetected += 1
+        if hand.getConfidense() < 0.73:
+            return False
+        self.__phrase += hand.getLetter()
+        if self.__kLetterDetector.detect(hand):
+            print('K is detected!!!!!!!!!!!')
+            self.__phrase +='K'
+
+        return False
 
     def loadConfig(self):
         # Load configuration of test from JSON file

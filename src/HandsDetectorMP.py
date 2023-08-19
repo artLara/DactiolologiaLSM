@@ -71,7 +71,7 @@ class HandsDetector():
             hand.setImgWidth(image.shape[0])
             hand.setImgHeight(image.shape[1])
             hand.setLandMarksNormalized(self.getLandmarksNorm(x,y,bbox))
-            hand.setLandMarks(np.asarray([x+y]))
+            hand.setLandMarks(np.asarray(x+y))
             hand.setBoundingBox(bbox)
 
             # hand.setAncho(bbox[2] - bbox[0])

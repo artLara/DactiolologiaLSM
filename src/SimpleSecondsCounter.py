@@ -1,6 +1,4 @@
 import time
-
-
 class SecondCounter():
     def __init__(self):
         self.__firstInterval = None
