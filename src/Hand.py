@@ -55,6 +55,16 @@ class Hand():
     def getConfidense(self):
         return self.__confidense
 
+    def getWidthBoundingBox(self):
+        if self.__boundingBox == None:
+            return -1
+        return self.__boundingBox[3]-self.__boundingBox[1]
+
+    def getHeightBoundingBox(self):
+        if self.__boundingBox == None:
+            return -1
+        return self.__boundingBox[2]-self.__boundingBox[0]
+
     ####### SETTERS
     # def setImg(self,img):
     #     self.__img=img

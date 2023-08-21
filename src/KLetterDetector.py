@@ -18,7 +18,7 @@ class KLetterDetector():
     def startDetection(self, pHand):
         self.__pHand = pHand #P sign
         self.__moving = True
-        print('K detetection started')
+        # print('K detetection started')
 
     def stopDetection(self):
         self.__counter = 0
@@ -36,7 +36,6 @@ class KLetterDetector():
             self.stopDetection()
             return False
 
-        print(self.__pHand.getLandmarks())
         p1 = (self.__pHand.getLandmarks()[8], self.__pHand.getLandmarks()[29])
         p2 = (self.__pHand.getLandmarks()[12], self.__pHand.getLandmarks()[33])
         k1 = (k.getLandmarks()[8], k.getLandmarks()[29])

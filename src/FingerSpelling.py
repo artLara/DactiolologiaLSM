@@ -4,13 +4,15 @@ from HandsDetectorMP import HandsDetector
 from LetterDetector import LetterDetector
 from SimpleSecondsCounter import SecondCounter
 from KLetterDetector import KLetterDetector
+from DoubleLetterDetector import DoubleLetterDetector
+
 class FingerSpelling():
     def __init__(self,parent=None):
         self.__phrase = ""
         self.__letterDetector = LetterDetector()
         self.__secondsCounter = SecondCounter()
         self.__kLetterDetector = KLetterDetector()
-        self.__doubleLettersDetector = None
+        self.__doubleLettersDetector = DoubleLetterDetector()
         self.__phraseCleaner = None
         self.__secuenceHands = []
 
@@ -32,7 +34,6 @@ class FingerSpelling():
         if hand != None:
             self.__phrase += hand.getLetter()
 
-        #Check K letter
         #Check double letters
         #Post-processing
 
@@ -63,8 +64,11 @@ class FingerSpelling():
         self.__phrase += hand.getLetter()
         if self.__kLetterDetector.detect(hand):
             print('K is detected!!!!!!!!!!!')
-            self.__phrase +='K'
+            self.__phrase += 'K'
 
+        if self.__doubleLettersDetector.detect(hand):
+            print('Double  letter was detected!!!')
+            self.__phrase += '/' + self.__doubleLettersDetector.getLetter() + '/'
         return False
 
     def loadConfig(self):
