@@ -56,8 +56,8 @@ class Hand():
         return self.__confidense
 
     def getWidthBoundingBox(self):
-        if self.__boundingBox == None:
-            return -1
+        # if self.__boundingBox == None:
+        #     return -1
         return self.__boundingBox[3]-self.__boundingBox[1]
 
     def getHeightBoundingBox(self):

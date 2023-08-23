@@ -1,15 +1,14 @@
 
 class DoubleLetterDetector():
-    def __init__(self, m0_hand=None, tolerance = 0.3, MAXKFRAMES=5):
+    def __init__(self, m0_hand=None, tolerance = 0.1, MAXKFRAMES=5):
         self.__m0_hand = m0_hand #P sign
         self.__tolerance = tolerance
         self.__MAXKFRAMES = MAXKFRAMES
         self.__counter = 0
         self.__moving = False
         self.__leter = ''
-        a,b,c,d,e,f,g,h,i,l,m,n,o,p,r,s,t,u,v,w,y.
-        self.__listOfLetters = set('A','B','C','D','E','F','G','H','I','L','M',
-                                    'N','O','P','Q','R','S','T','U','V','W','Y')
+        self.__listOfLetters = set(['A','B','C','D','E','F','G','H','I','L','M',
+                                    'N','O','P','Q','R','S','T','U','V','W','Y'])
 
     def getLetter(self):
         return self.__leter
@@ -39,27 +38,17 @@ class DoubleLetterDetector():
         m0 = (self.__m0_hand.getLandmarks()[0], self.__m0_hand.getLandmarks()[21])
         wbb = self.__m0_hand.getWidthBoundingBox()
 
-        m1 = (self.__m1_hand.getLandmarks()[0], self.__m1_hand.getLandmarks()[21])
-        p2 = (self.__m0_hand.getLandmarks()[12], self.__m0_hand.getLandmarks()[33])
+        m1 = (m1_hand.getLandmarks()[0], m1_hand.getLandmarks()[21])
         t = self.__tolerance
         self.__counter += 1
 
-        if (m0[0] + wbb) - (m0[0] + wbb)*t > m1[0] > (m0[0] + wbb) + (m0[0] + wbb)*t:
+        #Horizontal movement (rule 1)
+        if (m0[0] + wbb) + (m0[0] + wbb)*t > m1[0]:
             return False
 
-        if m1[1]-m1[1]*t > m0[1] > m1[1]+m1[1]*t:
+        #Vertical movement (rule 2)
+        if m1[1]-m1[1]*t > m0[1] and m0[1] > m1[1]+m1[1]*t:
             return False
 
         self.stopDetection()
         return True
-        #
-        # if k2[1]-k2[1]*t <= ck1[1] <= k2[1]+k2[1]*t:#k1 ~ k2
-        #     # print('Pasa 1')
-        #     if ck2[1]-ck2[1]*t <= abs(k2[1]-k1[1]) + k2[1] <= ck2[1]+ck2[1]*t: #d(k1,k2)+k2~ ck2
-        #         # print('Pasa 2')
-        #
-        #         if ck1[0]-ck1[0]*t <= k1[0] <= ck1[0]+ck1[0]*t and ck2[0]-ck2[0]*t <= k2[0] <= ck2[0]+ck2[0]*t: #Movimiento en #x:
-        #             # print('Pasa 3')
-        #             return True
-        #
-        # return False

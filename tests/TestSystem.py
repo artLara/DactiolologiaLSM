@@ -12,7 +12,7 @@ class TestSystem():
         self.__fingerSpelling.newPhrase()
         validated, img = self.__camara.getFrame()
         while(validated):
-            img = cv2.flip(img, 1) #Changein case of left hand
+            img = cv2.flip(img, 1) #Change it in case of left hand
             finished = self.__fingerSpelling.testRun(img)
             if finished:
                 # self.__fingerSpelling.printTestResult()
