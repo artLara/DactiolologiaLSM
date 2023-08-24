@@ -1,6 +1,6 @@
 
 class DoubleLetterDetector():
-    def __init__(self, m0_hand=None, tolerance = 0.1, MAXKFRAMES=5):
+    def __init__(self, m0_hand=None, tolerance = 0.3, MAXKFRAMES=5):
         self.__m0_hand = m0_hand #P sign
         self.__tolerance = tolerance
         self.__MAXKFRAMES = MAXKFRAMES

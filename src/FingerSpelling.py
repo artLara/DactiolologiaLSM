@@ -5,6 +5,7 @@ from LetterDetector import LetterDetector
 from SimpleSecondsCounter import SecondCounter
 from KLetterDetector import KLetterDetector
 from DoubleLetterDetector import DoubleLetterDetector
+from PhraseCleaner import PhraseCleaner
 
 class FingerSpelling():
     def __init__(self,parent=None):
@@ -13,12 +14,15 @@ class FingerSpelling():
         self.__secondsCounter = SecondCounter()
         self.__kLetterDetector = KLetterDetector()
         self.__doubleLettersDetector = DoubleLetterDetector()
-        self.__phraseCleaner = None
+        self.__phraseCleaner = PhraseCleaner()
         self.__secuenceHands = []
 
         ####Test mode####
         self.__countLettersDetected = 0
         self.__countLettersNotDetected = 0
+
+    def getCleanPhrase(self):
+        return self.__phraseCleaner.cleanSentence(self.__phrase)
 
     def newPhrase(self):
         self.__phrase = ""
@@ -83,4 +87,4 @@ class FingerSpelling():
         print('Total of frames:', self.__countLettersNotDetected + self.__countLettersDetected)
         print('Hands detect:', self.__countLettersDetected)
         print('Hands did not detect:', self.__countLettersNotDetected)
-        print('Phrase:', self.__phrase)
+        print('Phrase:', self.getCleanPhrase())
