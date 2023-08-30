@@ -69,6 +69,7 @@ class PhraseCleaner():
             # print(tmp)
             cleanWordsSet.append(tmp)
 
+        words = self.__wordsSelector.getPhrase(cleanWordsSet, selector='contextGraph')
         return ' '.join(words)
 
     def cleanRepetitiveLetters(self, word):

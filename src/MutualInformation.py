@@ -1,5 +1,5 @@
 class MutualInformation:
-    def __init__(self, prob, prob_join, N, pathOfObjectDirectory=''):
+    def __init__(self, prob, prob_join, N):
         self.prob = prob
         self.prob_join = prob_join
         self.N = N
