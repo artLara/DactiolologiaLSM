@@ -1,2 +1,2 @@
 src/ignore.txt
-bin/similarWords/probability_join.pkl
+bin/similarWords/mutualInformation/probability_join.pkl
