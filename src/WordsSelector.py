@@ -146,7 +146,7 @@ class WordsSelector():
 
         # Function to initialise the
         # distance and Next array
-        dis, Next = self.__initialise(self.__V,dis, Next)
+        dis, Next = self.__initialise(dis, Next)
 
         # Calling Floyd Warshall Algorithm,
         # this will update the shortest
