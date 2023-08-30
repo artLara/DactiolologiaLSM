@@ -18,8 +18,8 @@ class SimilarWords:
             with open(pathOfObjectDirectory+'probability.pkl', 'rb') as inp:
                 self.prob = pickle.load(inp)
 
-            # with open(pathOfObjectDirectory+'probability_join.pkl', 'rb') as inp:
-            #     self.prob_join = pickle.load(inp)
+            with open(pathOfObjectDirectory+'probability_join.pkl', 'rb') as inp:
+                self.prob_join = pickle.load(inp)
 
             with open(pathOfObjectDirectory+'N.pkl', 'rb') as inp:
                 self.prob_join = pickle.load(inp)
