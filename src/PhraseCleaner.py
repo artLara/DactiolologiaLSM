@@ -1,10 +1,10 @@
 from spellchecker import SpellChecker
-
+from WordsSelector import WordsSelector
 class PhraseCleaner():
     def __init__(self):
         self.__maxOptWords = 5
         self.__vocabByLen = self.loadVocabulary()
-        # self.__
+        self.__wordsSelector = WordsSelector()
 
     def loadVocabulary(self):
         self.__spell = SpellChecker(language='es')
