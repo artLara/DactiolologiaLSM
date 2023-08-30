@@ -22,7 +22,7 @@ class SimilarWords:
                 self.prob_join = pickle.load(inp)
 
             with open(pathOfObjectDirectory+'N.pkl', 'rb') as inp:
-                self.prob_join = pickle.load(inp)
+                self.N = pickle.load(inp)
 
         # if not os.path.isfile(pathOfObjectDirectory+'mutualInformation.pkl'):
         self.mutualInformation = MutualInformation(self.prob, self.prob_join, self.N)
