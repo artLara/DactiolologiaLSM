@@ -1,7 +1,7 @@
 import sys
 sys.path.insert(0, '../src')
 import pandas as pd
-from dactiolologialsm.PhraseCleaner import PhraseCleaner
+from DactiolologiaLSM.PhraseCleaner import PhraseCleaner
 class PhraseCleanerTest():
     def __init__(self):
         self.__phraseCleaner = PhraseCleaner()
