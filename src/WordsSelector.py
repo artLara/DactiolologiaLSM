@@ -134,17 +134,21 @@ class WordsSelector():
         # stride = tam
         sw=0
         for stride in range(tam,tam*(tam-1)+1,len(words)):
+            print('sw=',sw)
             for i in range(len(words)):
                 for j in range(len(words)):
                     #Metric with probality
                     # self.__graph[i+stride-tam][j+stride] = (words[sw][i][1] + words[sw+1][j][1]) * -getProb(words[sw][i][0],words[sw+1][j][0])
 
-                    self.__graph[i+stride-tam][j+stride] = 0
                     #Just MI
+                    if sw+1 >= len(words):
+                        continue
+
                     self.__graph[i+stride-tam][j+stride] = -self.__getMI(words[sw][i][0],words[sw+1][j][0])
                     # print('prob:(',words[sw][i][0],',',words[sw+1][j][0],')')
                     # self.__graph[i+stride-tam][j+stride] = -getProb(words[sw][i][0],words[sw+1][j][0])
             sw += 1
+
 
         MAXM,self.__INF = 1000,self.__INF
         dis = [[-1 for i in range(MAXM)] for i in range(MAXM)]
