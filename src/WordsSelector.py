@@ -139,6 +139,7 @@ class WordsSelector():
                     #Metric with probality
                     # self.__graph[i+stride-tam][j+stride] = (words[sw][i][1] + words[sw+1][j][1]) * -getProb(words[sw][i][0],words[sw+1][j][0])
 
+                    self.__graph[i+stride-tam][j+stride] = 0
                     #Just MI
                     self.__graph[i+stride-tam][j+stride] = -self.__getMI(words[sw][i][0],words[sw+1][j][0])
                     # print('prob:(',words[sw][i][0],',',words[sw+1][j][0],')')
