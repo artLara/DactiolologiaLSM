@@ -115,6 +115,8 @@ class WordsSelector():
         print(path[n - 1])
 
     def contextGraph(self, words):
+        print('Len(words)', len(words))
+        self.__graph = []
         self.__V = len(words) ** 2
         for i in range(len(words)**2):
             tmp = []
@@ -125,6 +127,9 @@ class WordsSelector():
                     tmp.append(self.__INF)
             self.__graph.append(tmp)
 
+        """
+        Fill all the node conexions with MI values
+        """
         tam = len(words)
         # stride = tam
         sw=0
