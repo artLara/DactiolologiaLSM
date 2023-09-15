@@ -67,11 +67,11 @@ class FingerSpelling():
             return False
         self.__phrase += hand.getLetter()
         if self.__kLetterDetector.detect(hand):
-            print('K is detected!!!!!!!!!!!')
+            # print('K is detected!!!!!!!!!!!')
             self.__phrase += 'K'
 
         if self.__doubleLettersDetector.detect(hand):
-            print('Double  letter was detected!!!')
+            # print('Double  letter was detected!!!')
             self.__phrase += '/' + self.__doubleLettersDetector.getLetter() + '/'
         return False
 
