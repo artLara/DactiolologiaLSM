@@ -126,9 +126,9 @@ class WordsSelector():
             self.__graph.append(tmp)
 
         tam = len(words)
-        stride = tam
+        # stride = tam
         sw=0
-        for stride in range(tam,tam*(tam-1)+1,stride):
+        for stride in range(tam,tam*(tam-1)+1,len(words)):
             for i in range(len(words)):
                 for j in range(len(words)):
                     #Metric with probality
