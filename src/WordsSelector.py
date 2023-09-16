@@ -106,7 +106,7 @@ class WordsSelector():
                         Next[i][j] = Next[i][k]
         return dis, Next
 
-    def printPath(path):
+    def printPath(self, path):
         n = len(path)
         if n==0:
             print('Not path')
@@ -181,6 +181,10 @@ class WordsSelector():
                     end = j+(len(words)* (len(words)-1))
 
         path, values = self.__constructPath(start, end, dis, Next)
+        self.printGraph(self.__graph)
+        print('-------------')
+        self.printPath(path)
+
         res = []
         for i,j in enumerate(path):
             # print(words[i][j-(tam*i)][0], end='->')
