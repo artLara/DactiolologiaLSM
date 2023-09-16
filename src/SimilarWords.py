@@ -6,7 +6,7 @@ class SimilarWords:
         self.vocabulary = set()
         self.prob = {}
         self.prob_join = {}
-        self.N = 0 # Total of sentences
+        self.N = 1 # Total of sentences
 
         if not os.path.isfile(pathOfObjectDirectory+'probability.pkl') or \
         not os.path.isfile(pathOfObjectDirectory+'probability_join.pkl')  or \
@@ -27,8 +27,8 @@ class SimilarWords:
         # if not os.path.isfile(pathOfObjectDirectory+'mutualInformation.pkl'):
         self.mutualInformation = MutualInformation(self.prob, self.prob_join, self.N)
         # else:
-            # with open(pathOfObjectDirectory+'mutualInformation.pkl', 'rb') as inp:
-                # self.mutualInformation = pickle.load(inp)
+        #     with open(pathOfObjectDirectory+'mutualInformation.pkl', 'rb') as inp:
+        #         self.mutualInformation = pickle.load(inp)
 
     # def initializeProbs(self, pathOfObjectDirectory, processAllTexts=True, maxTexts=10, verbose=True):
     #     """Preprocess texts and returns a list of lists which contains a sentence"""

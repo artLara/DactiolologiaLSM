@@ -6,7 +6,7 @@ class WordsSelector():
         self.__offset = 100000
         self.__sw = SimilarWords()
         self.__V = None
-        self.__INF = 999999
+        self.__INF = 9999
         self.__graph = []
         self.__maxFrec = None
         self.__dictFrec = None
@@ -29,7 +29,7 @@ class WordsSelector():
         if selector == 'contextGraph':
             return self.contextGraph(wordsSet)
 
-        print(selector, 'does not an option, try with max or contextself.__graph')
+        print(selector, 'does not an option, try with max or contextGraph')
 
     def maxSelect(self, wordsSet):
         res = []
@@ -44,6 +44,7 @@ class WordsSelector():
         except:
             return 1*self.__offsetoffset/self.__maxFrec[1]
     def __getMI(self, w1, w2):
+        # return 1
         try:
             # return self.__dictFrec[(w1,w2)]*self.__offsetoffset/maxFrec[1]
             return self.__sw.mutualInformation.similitud(w1,w2)
@@ -114,42 +115,48 @@ class WordsSelector():
             print(path[i], end=" -> ")
         print(path[n - 1])
 
+    def printGraph(self, graph):
+        for row in graph:
+            for column in row:
+                print('{} '.format(column), end='')
+            print('')
+
     def contextGraph(self, words):
-        print('Len(words)', len(words))
+        # print('Len(words)', len(words))
         self.__graph = []
-        self.__V = len(words) ** 2
-        for i in range(len(words)**2):
+        tam = len(words) * len(words[0])
+        self.__V = tam
+        for i in range(tam):
             tmp = []
-            for j in range(len(words)**2):
+            for j in range(tam):
                 if i==j:
                     tmp.append(0)
                 else:
                     tmp.append(self.__INF)
             self.__graph.append(tmp)
 
+        # self.printGraph(self.__graph)
+        # print('-----------------------------------')
         """
         Fill all the node conexions with MI values
         """
-        tam = len(words)
-        # stride = tam
-        sw=0
-        for stride in range(tam,tam*(tam-1)+1,len(words)):
-            print('sw=',sw)
-            for i in range(len(words[0])):
-                for j in range(len(words[0])):
+        sizeOptWords = len(words[0])
+        sw = 0
+        for stride in range(sizeOptWords,tam,sizeOptWords):
+            for i in range(sizeOptWords):
+                for j in range(sizeOptWords): #len(words)=6
                     #Metric with probality
                     # self.__graph[i+stride-tam][j+stride] = (words[sw][i][1] + words[sw+1][j][1]) * -getProb(words[sw][i][0],words[sw+1][j][0])
 
-                    #Just MI
-                    if sw+1 >= len(words):
-                        continue
+                    # #Just MI
+                    # if sw+1 >= len(words):
+                    #     continue
 
-                    self.__graph[i+stride-tam][j+stride] = -self.__getMI(words[sw][i][0],words[sw+1][j][0])
+                    self.__graph[i+stride-sizeOptWords][j+stride] = -self.__getMI(words[sw][i][0],words[sw+1][j][0])
                     # print('prob:(',words[sw][i][0],',',words[sw+1][j][0],')')
                     # self.__graph[i+stride-tam][j+stride] = -getProb(words[sw][i][0],words[sw+1][j][0])
             sw += 1
-
-
+        # self.printGraph(self.__graph)
         MAXM,self.__INF = 1000,self.__INF
         dis = [[-1 for i in range(MAXM)] for i in range(MAXM)]
         Next = [[-1 for i in range(MAXM)] for i in range(MAXM)]
@@ -177,7 +184,7 @@ class WordsSelector():
         res = []
         for i,j in enumerate(path):
             # print(words[i][j-(tam*i)][0], end='->')
-            res.append(words[i][j-(tam*i)][0])
+            res.append(words[i][j-(len(words)*i)][0])
         # print('')
         # print('value:', dis[start][end])
         # print(res)
