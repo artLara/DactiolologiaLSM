@@ -121,6 +121,17 @@ class WordsSelector():
                 print('{:.2f} '.format(column), end='')
             print('')
 
+    def printSolution(self, dist):
+        print("Following matrix shows the shortest distances between every pair of vertices")
+        for i in range(self.__V):
+            for j in range(self.__V):
+                if(dist[i][j] == self.__INF):
+                    print("%7s\t" % ("INF"), end=" ")
+                else:
+                    print("%.7f\t" % (dist[i][j]), end=' ')
+                if j == self.__V-1:
+                    print()
+
     def contextGraph(self, words):
         # print('Len(words)', len(words))
         self.__graph = []
@@ -185,7 +196,7 @@ class WordsSelector():
         self.printGraph(self.__graph)
         print('-------------')
         self.printPath(path)
-
+        self.printSolution(dis)
         res = []
         for i,j in enumerate(path):
             # print(words[i][j-(tam*i)][0], end='->')
