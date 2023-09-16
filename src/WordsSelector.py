@@ -185,18 +185,19 @@ class WordsSelector():
         shortes = self.__INF
         start = -1
         end = -1
-        for i in range(len(words)):
-            for j in range(len(words)):
-                if shortes > dis[i][j+(len(words)* (len(words)-1))]:
-                    shortes = dis[i][j+(len(words)* (len(words)-1))]
+        for i in range(sizeOptWords):
+            for j in range(sizeOptWords):
+                if shortes > dis[i][j+(sizeOptWords* (sizeOptWords-1))]:
+                    shortes = dis[i][j+(sizeOptWords* (sizeOptWords-1))]
                     start = i
-                    end = j+(len(words)* (len(words)-1))
+                    end = j+(sizeOptWords* (sizeOptWords-1))
 
         path, values = self.__constructPath(start, end, dis, Next)
         self.printGraph(self.__graph)
         print('-------------')
         self.printPath(path)
         self.printSolution(dis)
+        print('path=',path)
         res = []
         for i,j in enumerate(path):
             # print(words[i][j-(tam*i)][0], end='->')
