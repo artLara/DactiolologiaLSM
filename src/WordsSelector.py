@@ -118,7 +118,7 @@ class WordsSelector():
     def printGraph(self, graph):
         for row in graph:
             for column in row:
-                print('{} '.format(column), end='')
+                print('{:.2f} '.format(column), end='')
             print('')
 
     def contextGraph(self, words):
@@ -136,7 +136,6 @@ class WordsSelector():
             self.__graph.append(tmp)
 
         # self.printGraph(self.__graph)
-        # print('-----------------------------------')
         """
         Fill all the node conexions with MI values
         """
@@ -156,7 +155,9 @@ class WordsSelector():
                     # print('prob:(',words[sw][i][0],',',words[sw+1][j][0],')')
                     # self.__graph[i+stride-tam][j+stride] = -getProb(words[sw][i][0],words[sw+1][j][0])
             sw += 1
-        # self.printGraph(self.__graph)
+        self.printGraph(self.__graph)
+        print('-----------------------------------')
+
         MAXM,self.__INF = 1000,self.__INF
         dis = [[-1 for i in range(MAXM)] for i in range(MAXM)]
         Next = [[-1 for i in range(MAXM)] for i in range(MAXM)]
