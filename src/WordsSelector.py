@@ -192,11 +192,12 @@ class WordsSelector():
                     start = i
                     end = j+(sizeOptWords* (sizeOptWords-1))
 
-        path, values = self.__constructPath(start, end, dis, Next)
-        self.printGraph(self.__graph)
         print('-------------')
         self.printPath(path)
         self.printSolution(dis)
+        path, values = self.__constructPath(start, end, dis, Next)
+        self.printGraph(self.__graph)
+        
         print('path=',path)
         res = []
         for i,j in enumerate(path):
