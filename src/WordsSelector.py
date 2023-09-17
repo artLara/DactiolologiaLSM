@@ -126,9 +126,9 @@ class WordsSelector():
         for i in range(self.__V):
             for j in range(self.__V):
                 if(dist[i][j] == self.__INF):
-                    print("%7s\t" % ("INF"), end=" ")
+                    print("%9s\t" % ("INF"), end=" ")
                 else:
-                    print("%.7f\t" % (dist[i][j]), end=' ')
+                    print("%.9f\t" % (dist[i][j]), end=' ')
                 if j == self.__V-1:
                     print()
 
@@ -187,16 +187,16 @@ class WordsSelector():
         end = -1
         for i in range(sizeOptWords):
             for j in range(sizeOptWords):
-                if shortes > dis[i][j+(sizeOptWords* (sizeOptWords-1))]:
-                    shortes = dis[i][j+(sizeOptWords* (sizeOptWords-1))]
+                if shortes > dis[i][j + tam - sizeOptWords]:
+                    shortes = dis[i][j + tam - sizeOptWords]
                     start = i
-                    end = j+(sizeOptWords* (sizeOptWords-1))
+                    end = j + tam - sizeOptWords
 
         print('-------------')
         self.printSolution(self.__graph)
-        self.printPath(path)
         self.printSolution(dis)
         path, values = self.__constructPath(start, end, dis, Next)
+        self.printPath(path)
         self.printGraph(self.__graph)
         
         print('path=',path)
