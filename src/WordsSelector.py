@@ -43,6 +43,7 @@ class WordsSelector():
             return self.__dictFrec[(w1,w2)]*self.__offsetoffset/self.__maxFrec[1]
         except:
             return 1*self.__offsetoffset/self.__maxFrec[1]
+
     def __getMI(self, w1, w2):
         # return 1
         try:
@@ -203,7 +204,7 @@ class WordsSelector():
         res = []
         for i,j in enumerate(path):
             # print(words[i][j-(tam*i)][0], end='->')
-            res.append(words[i][j-(len(words)*i)][0])
+            res.append(words[i][j-(sizeOptWords*i)][0])
         # print('')
         # print('value:', dis[start][end])
         # print(res)
