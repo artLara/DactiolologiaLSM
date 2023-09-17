@@ -167,8 +167,8 @@ class WordsSelector():
                     # print('prob:(',words[sw][i][0],',',words[sw+1][j][0],')')
                     # self.__graph[i+stride-tam][j+stride] = -getProb(words[sw][i][0],words[sw+1][j][0])
             sw += 1
-        self.printGraph(self.__graph)
-        print('-----------------------------------')
+        # self.printGraph(self.__graph)
+        # print('-----------------------------------')
 
         MAXM,self.__INF = 1000,self.__INF
         dis = [[-1 for i in range(MAXM)] for i in range(MAXM)]
@@ -193,14 +193,14 @@ class WordsSelector():
                     start = i
                     end = j + tam - sizeOptWords
 
-        print('-------------')
-        self.printSolution(self.__graph)
-        self.printSolution(dis)
+        # print('-------------')
+        # self.printSolution(self.__graph)
+        # self.printSolution(dis)
         path, values = self.__constructPath(start, end, dis, Next)
-        self.printPath(path)
-        self.printGraph(self.__graph)
+        # self.printPath(path)
+        # self.printGraph(self.__graph)
         
-        print('path=',path)
+        # print('path=',path)
         res = []
         for i,j in enumerate(path):
             # print(words[i][j-(tam*i)][0], end='->')

@@ -64,10 +64,10 @@ class PhraseCleaner():
 
         cleanWordsSet = []
         # print(words)
-        print('Word sets:')
+        # print('Word sets:')
         for word in words:
             tmp = self.findCorrectWord(word)
-            print(tmp)
+            # print(tmp)
             cleanWordsSet.append(tmp)
 
         words = self.__wordsSelector.getPhrase(cleanWordsSet, selector='contextGraph')
