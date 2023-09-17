@@ -193,6 +193,7 @@ class WordsSelector():
                     end = j+(sizeOptWords* (sizeOptWords-1))
 
         print('-------------')
+        self.printSolution(self.__graph)
         self.printPath(path)
         self.printSolution(dis)
         path, values = self.__constructPath(start, end, dis, Next)
