@@ -24,10 +24,10 @@ class TestSystem():
     def runTest(self):
         print('Start test')
         path = '../tests/phrasesLSM/'
-        self.__camara.setSource(source=path+'phrase2_720_2.mp4')
+        self.__camara.setSource(source=path+'phrase2.mp4')
         self.testPhrase()
 
 
 path = '../tests/phrasesLSM/'
-test = TestSystem(source=path+'phrase2_720_2.mp4')
+test = TestSystem(source=path+'phrase2.mp4')
 test.runTest()
