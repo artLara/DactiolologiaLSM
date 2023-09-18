@@ -16,7 +16,7 @@ class FingerSpelling():
         self.__doubleLettersDetector = DoubleLetterDetector()
         self.__phraseCleaner = PhraseCleaner()
         self.__secuenceHands = []
-        self.__THRESHOLD = 0
+        self.__THRESHOLD = 0.73
 
         ####Test mode####
         self.__countLettersDetected = 0
