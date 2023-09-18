@@ -88,5 +88,5 @@ class FingerSpelling():
         print('Total of frames:', self.__countLettersNotDetected + self.__countLettersDetected)
         print('Hands detect:', self.__countLettersDetected)
         print('Hands did not detect:', self.__countLettersNotDetected)
-        # print('Noise Phrase:', self.__phrase)
+        print('Noise Phrase:', self.__phrase)
         print('Phrase:', self.getCleanPhrase())
