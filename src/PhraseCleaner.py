@@ -43,7 +43,7 @@ class PhraseCleaner():
                             metric = len(validWord)/len(word2clean) #+ self.__spell[validWord]/maxNumWords
                             # metric += self.__spell[validWord]/maxNumWords*0.3 #MOdificado aquiiiiiii
                             metric += self.__spell[validWord]/self.__maxFrecuency*0.3 #MOdificado aquiiiiiii
-                            
+
                             validwords.add((validWord, metric))
                             break
                     indexWord2Clean += 1
@@ -59,7 +59,7 @@ class PhraseCleaner():
         # return sorted(validwords, key= lambda x: x[1] , reverse=True)[:maxOptWords]
         # return max(validwords, key= lambda x: x[1] + self.__spell[x[0]]/maxNumWords*0.3)[0]
 
-    def symSpell(self, word2clean):
+    def symSpell(self, word2clean, maxOptWords=None):
         validwords = set()
         suggestions = sym_spell.lookup(word2clean, Verbosity.CLOSEST,
                                max_edit_distance=2, include_unknown=True)
@@ -73,6 +73,9 @@ class PhraseCleaner():
         return validwords
 
     def cleanSentence(self, phrase):
+        if maxOptWords == None:
+            maxOptWords = self.__maxOptWords
+            
         words = []
         for word in phrase.split(' '):
             if word == ' ' or word == '':
