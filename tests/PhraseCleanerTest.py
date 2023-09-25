@@ -15,7 +15,7 @@ class PhraseCleanerTest():
         for index in df.index:
             target = df['target'][index]
             noisePhrase = open("noisePhrases/"+df['file_name'][index], "r")
-            cleanPhrase = self.__phraseCleaner.cleanSentence(noisePhrase.read())
+            cleanPhrase = self.__phraseCleaner.cleanSentence(noisePhrase.read(),selector='max')
             print(cleanPhrase)
 
 

@@ -17,10 +17,11 @@ class PhraseCleaner():
         for i in range(100):
             vocabByLen.append([])
 
+        self.__maxFrecuency = 0
         for word in self.__spell:
             vocabByLen[len(word)].append(word)
             if self.__spell[word] > self.__maxFrecuency:
-               self.__maxFrecuency = self.__spell[word]  
+               self.__maxFrecuency = self.__spell[word]
 
         return vocabByLen
 
@@ -72,10 +73,10 @@ class PhraseCleaner():
 
         return validwords
 
-    def cleanSentence(self, phrase):
+    def cleanSentence(self, phrase, selector='contextGraph'):
         if maxOptWords == None:
             maxOptWords = self.__maxOptWords
-            
+
         words = []
         for word in phrase.split(' '):
             if word == ' ' or word == '':
@@ -97,12 +98,12 @@ class PhraseCleaner():
             validwords = list(set1 | set2)
             for _ in range(len(validwords), self.__maxOptWords): #For square matrix
                 validwords.append(('-', -1))
-        
+
             validwords = sorted(validwords, key= lambda x: x[1] , reverse=True)[:self.__maxOptWords]
             # print(tmp)
             cleanWordsSet.append(validwords)
 
-        words = self.__wordsSelector.getPhrase(cleanWordsSet, selector='contextGraph')
+        words = self.__wordsSelector.getPhrase(cleanWordsSet, selector)
         return ' '.join(words)
 
     def cleanRepetitiveLetters(self, word):
