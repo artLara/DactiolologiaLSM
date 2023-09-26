@@ -29,7 +29,7 @@ class PhraseCleaner():
         if maxOptWords == None:
             maxOptWords = self.__maxOptWords
 
-        validwords = set()#Array of clean words
+        validwords = []#Array of clean words
         maxNumWords = 0
         for index in range(min(len(word2clean),len(self.__vocabByLen)), 0, -1):#iterate vocabulary by len from the longest to smallest
             for validWord in self.__vocabByLen[index]: #Iterate words with the same longitud
@@ -45,19 +45,19 @@ class PhraseCleaner():
                             # metric += self.__spell[validWord]/maxNumWords*0.3 #MOdificado aquiiiiiii
                             metric += self.__spell[validWord]/self.__maxFrecuency*0.3 #MOdificado aquiiiiiii
 
-                            validwords.add((validWord.strip(), metric))
+                            validwords.append((validWord.strip(), metric))
                             break
                     indexWord2Clean += 1
 
             if len(validwords) >= maxOptWords: #Modificar para un largo definido y mateices rectangulares
                 break
 
-        return validwords
+        # return validwords
         # if len(validwords) < maxOptWords: #For return square matrices
         #     for _ in range(len(validwords),maxOptWords):
         #         validwords.append(('-', -1))
 
-        # return sorted(validwords, key= lambda x: x[1] , reverse=True)[:maxOptWords]
+        return set(sorted(validwords, key= lambda x: x[1] , reverse=True)[:maxOptWords])
         # return max(validwords, key= lambda x: x[1] + self.__spell[x[0]]/maxNumWords*0.3)[0]
 
     def symSpell(self, word2clean, maxOptWords=None):
