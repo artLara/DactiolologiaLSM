@@ -114,7 +114,7 @@ class FindCorrectWordsSetTest():
 					# print('x={} wordsSet{}'.format(x, wordsSet))
 
 					count += 1
-					if count % 200 == 0:
+					if count % 20000 == 0:
 						print('{} de {}===={}%'.format(count, len(noiseWords), count/len(noiseWords)*100))
 						# break
 

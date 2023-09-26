@@ -117,7 +117,7 @@ class FindCorrectWordsSetTest():
 
 					count += 1
 					if count % 20000 == 0:
-						print('{} de {}===={}%'.format(count, len(cleanWords), count/len(cleanWords)*100))
+						print('{} de {}===={:.2f}%'.format(count, len(cleanWords), count/len(cleanWords)*100))
 						# break
 				textFile.close()
 
@@ -142,8 +142,8 @@ class FindCorrectWordsSetTest():
 					# print('Accuracy {}_{}_{}={}'.format(randomLettersRate, maxRandoms,cardinality,tmpCount/len(count)))
 
 					# break
-				break
-			break
+				# break
+			# break
 
 path2save = sys.argv[1]
 startLoop = float(sys.argv[2])
