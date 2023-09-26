@@ -45,7 +45,7 @@ class PhraseCleaner():
                             # metric += self.__spell[validWord]/maxNumWords*0.3 #MOdificado aquiiiiiii
                             metric += self.__spell[validWord]/self.__maxFrecuency*0.3 #MOdificado aquiiiiiii
 
-                            validwords.add((validWord, metric))
+                            validwords.add((validWord.strip(), metric))
                             break
                     indexWord2Clean += 1
 
@@ -61,17 +61,16 @@ class PhraseCleaner():
         # return max(validwords, key= lambda x: x[1] + self.__spell[x[0]]/maxNumWords*0.3)[0]
 
     def symSpell(self, word2clean, maxOptWords=None):
-        validwords = set()
-        suggestions = sym_spell.lookup(word2clean, Verbosity.CLOSEST,
-                               max_edit_distance=2, include_unknown=True)
+        validwords = []
+        suggestions = self.__symSpell.lookup(word2clean, Verbosity.CLOSEST, max_edit_distance=2, include_unknown=False)
 
         for suggestion in suggestions:
             validWord = suggestion.term
             metric = len(validWord)/len(word2clean) #+ self.__spell[validWord]/maxNumWords
             metric += self.__spell[validWord]/self.__maxFrecuency*0.3 #MOdificado aquiiiiiii
-            validwords.add((validWord, metric))
+            validwords.append((validWord.strip(), metric))
 
-        return validwords
+        return set(validwords)
 
     def cleanSentence(self, phrase, selector='contextGraph'):
         if maxOptWords == None:

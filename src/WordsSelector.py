@@ -1,28 +1,33 @@
 from SimilarWords import SimilarWords
+from Utils import Utils
 import pickle
 import os
 class WordsSelector():
     def __init__(self, pathOfObjectDirectory='../bin/similarWords/'):
-        self.__offset = 100000
-        self.__sw = SimilarWords()
-        self.__V = None
-        self.__INF = 9999
-        self.__graph = []
-        self.__maxFrec = None
-        self.__dictFrec = None
+        if Utils.checkRamSize():
+            self.__offset = 100000
+            self.__sw = SimilarWords()
+            self.__V = None
+            self.__INF = 9999
+            self.__graph = []
+            self.__maxFrec = None
+            self.__dictFrec = None
 
-        if not os.path.isfile(pathOfObjectDirectory+'graphContext/dictFec.pkl') or \
-        not os.path.isfile(pathOfObjectDirectory+'graphContext/maxFrec.pkl'):
-            print('Error: grpah context files not found!')
+            if not os.path.isfile(pathOfObjectDirectory+'graphContext/dictFec.pkl') or \
+            not os.path.isfile(pathOfObjectDirectory+'graphContext/maxFrec.pkl'):
+                print('Error: graph context files not found!')
 
-        else:
-            with open(pathOfObjectDirectory+'graphContext/dictFec.pkl', 'rb') as inp:
-                self.__maxFrec = pickle.load(inp)
+            else:
+                with open(pathOfObjectDirectory+'graphContext/dictFec.pkl', 'rb') as inp:
+                    self.__maxFrec = pickle.load(inp)
 
-            with open(pathOfObjectDirectory+'graphContext/maxFrec.pkl', 'rb') as inp:
-                self.__dictFrec = pickle.load(inp)
+                with open(pathOfObjectDirectory+'graphContext/maxFrec.pkl', 'rb') as inp:
+                    self.__dictFrec = pickle.load(inp)
 
     def getPhrase(self, wordsSet, selector='max'):
+        if not Utils.checkRamSize():
+            return self.maxSelect(wordsSet)
+            
         if selector == 'max':
             return self.maxSelect(wordsSet)
 
@@ -199,7 +204,7 @@ class WordsSelector():
         path, values = self.__constructPath(start, end, dis, Next)
         # self.printPath(path)
         # self.printGraph(self.__graph)
-        
+
         # print('path=',path)
         res = []
         for i,j in enumerate(path):
