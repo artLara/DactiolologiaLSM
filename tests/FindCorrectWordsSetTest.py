@@ -116,9 +116,9 @@ class FindCorrectWordsSetTest():
 					# print('x={} wordsSet{}'.format(x, wordsSet))
 
 					count += 1
-					if count % 2000 == 0:
+					if count % 20000 == 0:
 						print('{} de {}===={}%'.format(count, len(cleanWords), count/len(cleanWords)*100))
-						break
+						# break
 				textFile.close()
 
 				#Write in files
