@@ -3,14 +3,14 @@ from WordsSelector import WordsSelector
 from symspellpy import SymSpell, Verbosity
 
 class PhraseCleaner():
-    def __init__(self, maxOptWords=5):
+    def __init__(self, maxOptWords=5, pathSymEspDict='../bin/dictionaries/es-100l.txt'):
         self.__maxOptWords = maxOptWords
         self.__maxFrecuency = None
         self.__spell = SpellChecker(language='es')
         self.__vocabByLen = self.loadVocabulary()
         self.__wordsSelector = WordsSelector()
         self.__symSpell = SymSpell()
-        self.__symSpell.load_dictionary('../bin/dictionaries/es-100l.txt', 0, 1)
+        self.__symSpell.load_dictionary(pathSymEspDict, 0, 1)
 
     def loadVocabulary(self):
         vocabByLen = []
@@ -57,7 +57,7 @@ class PhraseCleaner():
         #     for _ in range(len(validwords),maxOptWords):
         #         validwords.append(('-', -1))
 
-        return set(sorted(validwords, key= lambda x: x[1] , reverse=True)[:maxOptWords])
+        return sorted(validwords, key= lambda x: x[1] , reverse=True)[:maxOptWords]
         # return max(validwords, key= lambda x: x[1] + self.__spell[x[0]]/maxNumWords*0.3)[0]
 
     def symSpell(self, word2clean, maxOptWords=None):
@@ -70,7 +70,8 @@ class PhraseCleaner():
             metric += self.__spell[validWord]/self.__maxFrecuency*0.3 #MOdificado aquiiiiiii
             validwords.append((validWord.strip(), metric))
 
-        return set(validwords)
+        return sorted(validwords, key= lambda x: x[1] , reverse=True)
+
 
     def cleanSentence(self, phrase, selector='contextGraph'):
         if maxOptWords == None:

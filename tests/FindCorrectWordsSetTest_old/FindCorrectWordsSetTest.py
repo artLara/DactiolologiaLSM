@@ -9,7 +9,7 @@ class FindCorrectWordsSetTest():
 	This file run the test for evaluate each algorithm which find the correct posible set of words.
 	"""
 	def __init__(self):
-		self.__phraseCleaner = PhraseCleaner()
+		self.__phraseCleaner = PhraseCleaner(pathSymEspDict='../../bin/dictionaries/es-100l.txt')
 		self.__MAX_CARDINALITY_SET = 7
 
 	def writeInFile(self, path, file_name, text):
