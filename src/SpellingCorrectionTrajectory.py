@@ -1,12 +1,14 @@
 import numpy as np
 import pickle as pkl
+from fractions import Fraction
+
 class SpellingCorrectionTrajectory():
-    def __init__(self,coordenatesOrd=None, sizeTable=20):
+    def __init__(self,coordenatesOrd=None, sizeTable=20, pathFiles='../bin/spellingCorrectionTrajectory/'):
         self.__sizeTable = sizeTable
         self.__confidenceIoU = 0.5
         if coordenatesOrd == None:
             #Load from file
-            with open('../bin/spellingCorrectionTrajectory/coordenatesOrd.pkl', 'rb') as handle:
+            with open(pathFiles + 'coordenatesOrd.pkl', 'rb') as handle:
                 coordenatesOrd = pkl.load(handle)
 
         self.__coordenatesOrd = coordenatesOrd
@@ -26,21 +28,46 @@ class SpellingCorrectionTrajectory():
     def __linealFunction(self, m, p, x):
         return int(m*x - m*p[0] + p[1])
 
+    def __calculateM(self, p1, p2):
+        try:
+            m = Fraction(p1[1]-p2[1]) / Fraction(p1[0]-p2[0])
+        except:
+            # print('Problems with :')
+            # print('C1:', c1)
+            # print('C2:', c2)
+            m = Fraction(0)
+
+        return m
+
     def calculateTrajectory(self, c1, c2):
         p1 = None
         p2 = None
+        reverse = False
         if c1[0] < c2[0]:
             p1 = c1
             p2 = c2
-        else:
+        elif c1[0] > c2[0]:
             p1 = c2
             p2 = c1
+        else:
+            reverse = True
+            if c1[1] < c2[1]:
+                p1 = c1
+                p2 = c2
+            else:
+                p1 = c2
+                p2 = c1
 
-        m = (p1[1]-p2[1]) / (p1[0]-p2[0])
+        m = self.__calculateM(p1, p2)
+
         trajectory = []
         for x in range(p1[0], max(p2[0], p2[1])+1):
             y = self.__linealFunction(m, p1, x)
-            trajectory.append((x, y))
+            if reverse:
+                trajectory.append((y, x))
+            else:
+                trajectory.append((x, y))
+            # if x == p2[0] or y == p2[1]:
             if (x, y) == p2:
                 break
 
@@ -52,19 +79,30 @@ class SpellingCorrectionTrajectory():
             print('Trajectory:',start,'->', end)
             print(trajectory)
         for i,j in trajectory:
-            table[i][j] = start
+            try:
+                table[i][j] = start
+            except:
+                print('Problems with :')
+                print('Trajectory:',start,'->', end)
+                print(trajectory)
+                print('start:', start)
+                print('end:', end)
+                break
 
-    def makeTableTrajectories(self, word):
+    def makeTableTrajectories(self, word, verbose=False):
         table = [[0 for _ in range(self.__sizeTable)] for _ in range(self.__sizeTable)]
-        tableN = np.asarray(table)
         tokens = self.tokenizer(word)
         # print(tokens)
+        if len(tokens) ==  1:
+            p = self.__coordenatesOrd[tokens[0]]
+            table[p[0]][p[1]] = tokens[0]
+
         index = 0
         while(index < len(tokens)-1):
-            self.drawTrayectory(table, self.__coordenatesOrd, tokens[index], tokens[index+1])
+            self.drawTrayectory(table, self.__coordenatesOrd, tokens[index], tokens[index+1], verbose)
             index += 1
 
-        return table
+        return np.asarray(table)
 
     def replaceAccents(self, c):
         if c == 'á':
@@ -108,9 +146,9 @@ class SpellingCorrectionTrajectory():
                 print('{}\t'.format(table[i][j]), end=' ')
             print('')
 
-st = SpellingCorrectionTrajectory()
-# st.printTable(st.makeTableTrajectories('perro'))
-# st.printTable(st.makeTableTrajectories('cerro'))
-st.compareWords('perro', 'cerro')
-st.compareWords('perro', 'erro')
-st.compareWords('que', 'hue')
+# st = SpellingCorrectionTrajectory()
+# # # st.printTable(st.makeTableTrajectories('perro'))
+# # # st.printTable(st.makeTableTrajectories('cerro'))
+# st.compareWords('perro', 'cerro')
+# st.compareWords('perro', 'erro')
+# st.compareWords('que', 'hue')
