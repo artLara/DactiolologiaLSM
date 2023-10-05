@@ -163,10 +163,11 @@ class SpellingCorrectionTrajectoryTest():
 			# break
 
 path2save = sys.argv[1]
-startLoop1 = float(sys.argv[2])
-endLoop1 = float(sys.argv[3])
-startLoop2 = float(sys.argv[4])
-endLoop2 = float(sys.argv[5])
+path = sys.argv[2]
+startLoop1 = float(sys.argv[3])
+endLoop1 = float(sys.argv[4])
+startLoop2 = float(sys.argv[5])
+endLoop2 = float(sys.argv[6])
 
 test = SpellingCorrectionTrajectoryTest()
-test.runTest(startLoop1=startLoop1, endLoop1=endLoop1, startLoop2=startLoop2, endLoop2=endLoop2, path2save=path2save)
+test.runTest(startLoop1=startLoop1, endLoop1=endLoop1, startLoop2=startLoop2, endLoop2=endLoop2, path2save=path2save, path=path)

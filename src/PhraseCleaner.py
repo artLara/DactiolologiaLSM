@@ -3,7 +3,7 @@ from WordsSelector import WordsSelector
 from symspellpy import SymSpell, Verbosity
 
 class PhraseCleaner():
-    def __init__(self, maxOptWords=5, pathSymEspDict='../bin/dictionaries/es-100l.txt'):
+    def __init__(self, maxOptWords=5, pathSymEspDict='../../bin/dictionaries/es-100l.txt'):
         self.__maxOptWords = maxOptWords
         self.__maxFrecuency = None
         self.__spell = SpellChecker(language='es')
