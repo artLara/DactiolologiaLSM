@@ -40,5 +40,5 @@ class VocabularyTablesGenerator():
             pickle.dump(tables, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 generator = VocabularyTablesGenerator()
-for long_word in range(1,6):
+for long_word in range(5,10):
     generator.generate(long_word)
