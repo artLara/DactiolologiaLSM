@@ -148,6 +148,8 @@ class SpellingCorrectionTrajectoryTest():
 						tmp = 'Accuracy {}_{}_{}_{}={}\n'.format(deleteLettersRate, randomLettersRate, maxRandoms,cardinality,tmpCount)
 						self.writeInFile(path2save, "accuracyFindAlg{}_{}_{}_{}".format(deleteLettersRate, randomLettersRate, maxRandoms,cardinality), tmp)
 						print('Count {}_{}_{}_{}={}'.format(deleteLettersRate, randomLettersRate, maxRandoms,cardinality,tmpCount))
+						print('Accuracy {}_{}_{}_{}={:.2f}%'.format(deleteLettersRate, randomLettersRate, maxRandoms,cardinality,tmpCount/len(cleanWords)*100))
+
 
 						tmpCount = generalCountsUnion['{}_{}_{}_{}'.format(deleteLettersRate, randomLettersRate, maxRandoms,cardinality)]
 						tmp = 'Accuracy {}_{}_{}_{}={}\n'.format(deleteLettersRate, randomLettersRate, maxRandoms,cardinality,tmpCount)
