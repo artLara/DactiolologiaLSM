@@ -127,7 +127,7 @@ class SpellingCorrectionTrajectoryTest():
 						# dfUnion.append(newRow, ignore_index=True)
 						dfUnion.loc[len(dfUnion), dfUnion.columns] = word, result, cardinality
 
-						print('x={} wordsSet{}'.format(x, wordsSet))
+						# print('x={} wordsSet{}'.format(x, wordsSet))
 
 						count += 1
 						if count % 10000 == 0:
