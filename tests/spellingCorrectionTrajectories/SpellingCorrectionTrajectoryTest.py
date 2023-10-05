@@ -131,7 +131,14 @@ class SpellingCorrectionTrajectoryTest():
 
 						count += 1
 						if count % 10000 == 0:
-							print('{} de {}===={:.2f}%'.format(count, len(cleanWords), count/len(cleanWords)*100))
+							print('Progreso: {} de {}===={:.2f}%'.format(count, len(cleanWords), count/len(cleanWords)*100))
+							print('Accuracy temporal:')
+							for cardinality in range(1,self.__MAX_CARDINALITY_SET+1):
+								tmpCount = generalCountsTra['{}_{}_{}_{}'.format(deleteLettersRate, randomLettersRate, maxRandoms,cardinality)]
+								print('Accuracy {}_{}_{}_{}={:.2f}%'.format(deleteLettersRate, randomLettersRate, maxRandoms,cardinality,tmpCount/count*100))
+
+
+							# print('Progreso: {} de {}===={:.2f}%, Accuracy temporal;'.format(count, len(cleanWords), count/len(cleanWords)*100))
 							# break
 					textFile.close()
 
