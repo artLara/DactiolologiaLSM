@@ -101,7 +101,7 @@ class SpellingCorrectionTrajectoryTest():
 								"""
 								The method return the Leivintah-- distance equals to 2, so de cardinality does not has sense
 								"""
-								generalCountsSym['{}_{}'.format(randomLettersRate, maxRandoms)] += 1
+								generalCountsSym['{}_{}_{}'.format(deleteLettersRate, randomLettersRate, maxRandoms)] += 1
 								break
 
 						newRow = {'Noise word':word, 'Result':result, 'Cardinality':cardinality}
