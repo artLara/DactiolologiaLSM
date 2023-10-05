@@ -68,9 +68,9 @@ class PhraseCleaner():
             validWord = suggestion.term
             metric = len(validWord)/len(word2clean) #+ self.__spell[validWord]/maxNumWords
             metric += self.__spell[validWord]/self.__maxFrecuency*0.3 #MOdificado aquiiiiiii
-            validwords.append((validWord.strip(), metric))
+            validwords.append((metric, validWord.strip()))
 
-        return sorted(validwords, key= lambda x: x[1] , reverse=True)
+        return sorted(validwords, key= lambda x: x[0] , reverse=True)
 
 
     def cleanSentence(self, phrase, selector='contextGraph'):
