@@ -130,7 +130,7 @@ class SpellingCorrectionTrajectoryTest():
 						# print('x={} wordsSet{}'.format(x, wordsSet))
 
 						count += 1
-						if count % 10000 == 0:
+						if count % 1000 == 0:
 							print('Progreso: {} de {}===={:.2f}%'.format(count, len(cleanWords), count/len(cleanWords)*100))
 							print('Accuracy temporal:')
 							for cardinality in range(1,self.__MAX_CARDINALITY_SET+1):
